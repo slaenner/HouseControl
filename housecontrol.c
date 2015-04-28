@@ -2,7 +2,9 @@
 #include <string.h>
 #include <stdlib.h>
 
-#if defined(SIMULATION)
+#if !defined(SIMULATION)
+#include <bcm2835.h>
+#else
 #include "stubs.h"
 #endif
 
