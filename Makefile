@@ -9,7 +9,7 @@ CFLAGSSIM = -Isim_stubs/h -DSIMULATION
 CFLAGSTGT = -lbcm2835 -lm
 
 %.o: %.c
-	$(CC) -c -o $@ $< $(CFLAGSCOM) $(CFLAGSSIM)
+	$(CC) -c -o $@ $< $(CFLAGSCOM) $(CFLAGSTGT)
 
 raspberry: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGSCOM) $(CFLAGSTGT)
