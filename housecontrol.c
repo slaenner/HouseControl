@@ -33,9 +33,9 @@ void Init(void)
 
     /* Initialize relay outputs */
     InitBcmHw();
-    InitPin(pinGPIO4, GPIO_OUTPUT);  // Relay 0
-    InitPin(pinGPIO17, GPIO_OUTPUT); // Relay 1
-    
+    InitPin(pinGPIO17, GPIO_OUTPUT);  // Relay 0
+    InitPin(pinGPIO27, GPIO_OUTPUT); // Relay 1
+    ControlPin(pinGPIO27, gpioPinStateHigh);
   /* Trace */
   RL_PRINT("Completed\n");
 }
@@ -75,15 +75,15 @@ void ReadSensor(SensorData_t * ReturnData, int SensorId)
     {
       RL_PRINT("Data from DHT11 ERROR - Retrying\n");
     }
-  }  
+  }
 }
 
 
 int main(int argc, char **argv)
 {
     char lcdstr[16];
-    sprintf(lcdstr, "Stefan\n");
-    
+    sprintf(lcdstr, "Stefan");
+
     /* Initialize */
     Init();
 
@@ -91,10 +91,10 @@ int main(int argc, char **argv)
     RL_PRINT("System initialized\n");
 
     PrintLcdText(lcdstr);
-    
+
     /* Shutdown */
     Exit();
-    
+
     return 0;
 }
 
