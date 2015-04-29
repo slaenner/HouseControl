@@ -1,6 +1,10 @@
 
 #include "dht11.h"
 
+#define LCD_FILE_DESCRIPTOR "./LcdRegLog.txt"
+
+#define LOG_DATA_FILE "./LogData.txt"
+
 int bcm2835_init(void);
 SensorData_t* GetData(int pin);
 

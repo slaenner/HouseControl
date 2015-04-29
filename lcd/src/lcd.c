@@ -21,6 +21,10 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
+#if defined(SIMULATION)
+#include "stubs.h"
+#endif
+
 /* Include Funduiono specific header file */
 #include "lcd.h"
 
@@ -75,7 +79,7 @@ void PrintProgramArgument(char *text, unsigned int size)
   int i;
   
   printf("Printing following text to LCD:\n");
-  
+
   for(i = 0; i <= strlen(text)-1; i++)
   {
     /* Check if the size increases one line */
@@ -410,11 +414,7 @@ void InitializeLCD()
  *************************************************************************************/
 void PrintLcdText(char *text)
 {
-#if !defined(SIMULATION)
-  char *Filename = "/dev/i2c-1";
-#else
-  char *Filename = "./LcdRegLog.txt";
-#endif
+  char *Filename = LCD_FILE_DESCRIPTOR;
   
   /* Trace the program argument */
   PrintProgramArgument(text, strlen(text)-1);

@@ -34,5 +34,6 @@ double DewPoint(double celsius, double humidity);
 
 void ReadDht11(SensorData_t * ReturnData, int SensorId);
 void DhtInit(void);
+void dht11ReadSensorRetry(SensorData_t * ReturnData, int SensorId, int retries);
 
 #endif

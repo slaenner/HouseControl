@@ -23,7 +23,7 @@
 #include "bmc.h"
 #include "logger.h"
 
-void InitBcmHw()
+void bcmInitModule()
 {
   if (bcm2835_init() == 0)
   {
@@ -31,13 +31,13 @@ void InitBcmHw()
   }
 }
 
-void InitPin(gpioPinId gpio, bcm2835FunctionSelect fsel)
+void bcmInitPin(gpioPinId gpio, bcm2835FunctionSelect fsel)
 {
     // Set GPIO pin to output
     bcm2835_gpio_fsel(gpio, fsel);
 }
 
-void ControlPin(gpioPinId gpio, gpioPinState state)
+void bcmControlPin(gpioPinId gpio, gpioPinState state)
 {
     bcm2835_gpio_write(gpio, state);
 }

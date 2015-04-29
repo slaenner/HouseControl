@@ -175,4 +175,36 @@ SensorData_t* GetData(int pin)
 
   return &ReturnData;
 }
+
+void dht11ReadSensorRetry(SensorData_t * ReturnData, int SensorId, int retries)
+{
+    char buf[100];
+    int cnt = 0;
+    sprintf(buf, "Reading from DHT11 Sensor %d\n", SensorId);
+    RL_PRINT(buf);
+    
+    /* Invalidate sensor return code */
+    ReturnData->NewData = DHT11_ERROR;
+    
+    /* Read sensor until result has been received successfull */
+    while((ReturnData->NewData != DHT11_OK)
+          (cnt <= retries))
+    {
+        RL_PRINT("Fetching data from DHT11\n");
+        
+        /* Read DHT11 sensor 2 */
+        ReadDht11(ReturnData, SensorId);
+        
+        if(ReturnData->NewData == DHT11_OK)
+        {
+            RL_PRINT("Data from DHT11 read OK\n");
+        }
+        else
+        {
+            RL_PRINT("Data from DHT11 ERROR - Retrying\n");
+        }
+        cnt++;
+    }
+}
+
 #endif

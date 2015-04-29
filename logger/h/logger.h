@@ -10,8 +10,8 @@
 
 #define RL_PRINT(x) (PrintDbgLog( __FUNCTION__, x))
 
-void ExitLogger(void);
-void InitLogger(void);
+void loggerExit(void);
+void loggerInit(void);
 FILE *OpenLogFile(char *FileName);
 void CloseLogFile(FILE *handle);
 void PrintDbgLog(const char *func, char *str);

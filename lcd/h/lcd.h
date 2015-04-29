@@ -96,4 +96,8 @@
  */
 #define RS 0b00000001
 
+#if !defined(SIMULATION)
+#define LCD_FILE_DESCRIPTOR "/dev/i2c-1"
+#endif
+
 #endif /* LCD_H */

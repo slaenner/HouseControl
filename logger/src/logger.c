@@ -9,7 +9,7 @@
 
 static FILE *fpdbg;
 
-void ExitLogger(void)
+void loggerExit(void)
 {
   /* Trace */
   RL_PRINT("Closing debug log file\n");
@@ -19,7 +19,7 @@ void ExitLogger(void)
 }
 
 
-void InitLogger(void)
+void loggerInit(void)
 {
   /* Open a program debug log file */
 #if defined(SIMULATION)

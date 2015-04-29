@@ -30,8 +30,8 @@ typedef enum
 #define GPIO_INPUT  BCM2835_GPIO_FSEL_INPT
 #define GPIO_OUTPUT BCM2835_GPIO_FSEL_OUTP
 
-void ControlPin(gpioPinId gpio, gpioPinState state);
-void InitPin(gpioPinId gpio, bcm2835FunctionSelect fsel);
-void InitBcmHw();
+void bcmControlPin(gpioPinId gpio, gpioPinState state);
+void bcmInitPin(gpioPinId gpio, bcm2835FunctionSelect fsel);
+void bcmInitModule();
 
 #endif /* BMC_H */
