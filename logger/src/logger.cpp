@@ -35,7 +35,7 @@ void loggerInit(void)
   RL_PRINT("Initialized PrgDbgLog.txt for write\n");
 }
 
-FILE *OpenLogFile(char *FileName)
+FILE *OpenLogFile(const char *FileName)
 {
   /* File handle */
   FILE *fp = NULL;
@@ -80,7 +80,7 @@ void LogSensorData(FILE *handle, SensorData_t *data, unsigned int SensorId)
   fprintf(handle, "%s: [SENSOR%d]: %s", ts, SensorId, logstr);
 }
 
-void PrintDbgLog(const char *func, char *str)
+void PrintDbgLog(const char *func, const char *str)
 {
   struct timeval time;
   time_t curtime;

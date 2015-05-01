@@ -10,7 +10,7 @@
 
 #include "logger.h"
 #include "dht11.h"
-#include "bmc.h"
+#include "bcm.h"
 #include "lcd_exp.h"
 #include "housecontrol.h"
 

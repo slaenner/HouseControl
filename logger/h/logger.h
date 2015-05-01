@@ -12,9 +12,9 @@
 
 void loggerExit(void);
 void loggerInit(void);
-FILE *OpenLogFile(char *FileName);
+FILE *OpenLogFile(const char *FileName);
 void CloseLogFile(FILE *handle);
-void PrintDbgLog(const char *func, char *str);
+void PrintDbgLog(const char *func, const char *str);
 void LogSensorData(FILE *handle, SensorData_t *data, unsigned int SensorId);
 
 #endif

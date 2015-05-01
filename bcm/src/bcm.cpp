@@ -20,7 +20,7 @@
 #include <sys/ioctl.h>
 #include <math.h>
 
-#include "bmc.h"
+#include "bcm.h"
 #include "logger.h"
 
 void bcmInitModule()

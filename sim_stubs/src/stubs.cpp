@@ -1,11 +1,10 @@
 #if defined(SIMULATION)
 
 #include <stdio.h>
-#include "dht11.h"
-
 #include <time.h>
 #include <stdlib.h>
 
+#include "dht11.h"
 
 
 int bcm2835_init(void)

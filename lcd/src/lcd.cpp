@@ -106,7 +106,7 @@ void PrintProgramArgument(char *text, unsigned int size)
  * Return:       File desciptor handle
  *
  *************************************************************************************/
-int ConnectI2CSlave(char *FileName, unsigned int Address)
+int ConnectI2CSlave(const char *FileName, unsigned int Address)
 {
   /* File desciptor handle */
   int filedesciptor;
@@ -414,13 +414,11 @@ void InitializeLCD()
  *************************************************************************************/
 void PrintLcdText(char *text)
 {
-  char *Filename = LCD_FILE_DESCRIPTOR;
-  
   /* Trace the program argument */
   PrintProgramArgument(text, strlen(text)-1);
   
   /* Connect to the LCD display on the I2C bus and register a file descriptor handle */
-  fd = ConnectI2CSlave(Filename, LCD_I2C_ADDRESS);
+  fd = ConnectI2CSlave(LCD_FILE_DESCRIPTOR, LCD_I2C_ADDRESS);
     
   /* Setup the LCD */
   InitializeLCD();
