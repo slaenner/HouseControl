@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Makefile">
+   </FileRef>
+   <FileRef
+      location = "group:housecontrol.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:housecontrol.h">
+   </FileRef>
+   <Group
+      location = "group:socketserver"
+      name = "socketserver">
+      <Group
+         location = "group:h"
+         name = "h">
+         <FileRef
+            location = "group:socketserver.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:src"
+         name = "src">
+         <FileRef
+            location = "group:socketserver.cpp">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:bcm"
+      name = "bcm">
+      <Group
+         location = "group:h"
+         name = "h">
+         <FileRef
+            location = "group:bcm.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:src"
+         name = "src">
+         <FileRef
+            location = "group:bcm.cpp">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:dht11"
+      name = "dht11">
+      <Group
+         location = "group:h"
+         name = "h">
+         <FileRef
+            location = "group:dht11.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:src"
+         name = "src">
+         <FileRef
+            location = "group:dht11.cpp">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:lcd"
+      name = "lcd">
+      <Group
+         location = "group:h"
+         name = "h">
+         <FileRef
+            location = "group:lcd_exp.h">
+         </FileRef>
+         <FileRef
+            location = "group:lcd.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:src"
+         name = "src">
+         <FileRef
+            location = "group:lcd.cpp">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:logger"
+      name = "logger">
+      <Group
+         location = "group:h"
+         name = "h">
+         <FileRef
+            location = "group:logger.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:src"
+         name = "src">
+         <FileRef
+            location = "group:logger.cpp">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:sim_stubs"
+      name = "sim_stubs">
+      <Group
+         location = "group:h"
+         name = "h">
+         <FileRef
+            location = "group:stubs.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:src"
+         name = "src">
+         <FileRef
+            location = "group:stubs.cpp">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>

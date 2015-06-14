@@ -5,6 +5,7 @@
 #include <stdlib.h>
 
 #include "dht11.h"
+#include "logger.h"
 
 
 int bcm2835_init(void)
@@ -44,12 +45,12 @@ SensorData_t* GetData(int pin)
 
 void bcm2835_gpio_fsel(int pin, int fsel)
 {
-    
+    RL_PRINT("Setting pin type\n");
 }
 
 void bcm2835_gpio_write(int pin, int fsel)
 {
-    
+    RL_PRINT("Setting pin state\n");
 }
 
 #endif

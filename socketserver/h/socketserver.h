@@ -8,7 +8,13 @@
 #ifndef socketserver_h
 #define socketserver_h
 
-#define SERVER_ADDRESS "192.168.1.13"
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+
+
+#define SERVER_ADDRESS "localhost"
 #define SERVER_PORT 9930
 #define BUFLEN 512
 #define SENSORDATASIZE 16
@@ -37,7 +43,7 @@ class SocketServer
     void CreateSocket();
     int Bind();
     void HandlePacket();
-    void ReceiveData();
+    void Listen(char *cmd);
     void SendData();
     SocketServer();
    ~SocketServer();

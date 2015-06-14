@@ -165,7 +165,6 @@ SensorData_t* GetData(int pin)
   if ((j >= 39) && (data[4] == ((data[0] + data[1] + data[2] + data[3]) & 0xFF)))
   {
     // yay!
-    //printf("Temp = %d *C, Hum = %d \%\n", data[2], data[0]);
     ReturnData.TemperatureC = data[2];
     ReturnData.RHPercent = data[0];
     ReturnData.DevPointC = DewPoint((double)data[2], (double)data[0]);

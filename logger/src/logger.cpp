@@ -29,7 +29,7 @@ void loggerInit(void)
 #endif
 
   /* Print to the program debug log file that a new "session" has started */
-  PrintDbgLog(__FUNCTION__, "\n\n#### New program session ####\n\n");
+  PrintDbgLog(__FUNCTION__, "\n\n#### New program session ####\n\n", false);
 
   /* Trace */
   RL_PRINT("Initialized PrgDbgLog.txt for write\n");
@@ -80,20 +80,45 @@ void LogSensorData(FILE *handle, SensorData_t *data, unsigned int SensorId)
   fprintf(handle, "%s: [SENSOR%d]: %s", ts, SensorId, logstr);
 }
 
-void PrintDbgLog(const char *func, const char *str)
+void PrintDbgLogStr(const char *str)
 {
-  struct timeval time;
-  time_t curtime;
-  char buf[30];
+}
 
-  /* Get time of day and reformat into buf */
-  gettimeofday(&time, NULL);
-  curtime = time.tv_sec;
-  strftime(buf, 30,"%m-%d-%Y %T",localtime(&curtime));
+void PrintDbgLog(const char *func, const char *str, const bool noTs)
+{
+    struct timeval time;
+    time_t curtime;
+    char ts[30];
 
-  /* Write the specified string to the debug log */
-  fprintf(fpdbg, "%s %s(): %s", buf, func, str);
+    /* Get time of day and reformat into buf */
+    gettimeofday(&time, NULL);
+    curtime = time.tv_sec;
+    strftime(ts, 30,"%m-%d-%Y %T",localtime(&curtime));
 
-  /* Also print it to the screen */
-  printf("%s %s(): %s", buf, func, str);
+    /* Check if the time stamp should be printed */
+    if(!noTs)
+    {
+        /* Write the time stamp to debug log file */
+        fprintf(fpdbg, "%s ", ts);
+        
+        /* Also print it to the screen */
+        printf("%s ", ts);
+        
+    }
+
+    /* Check if the function name should be printed */
+    if(func != NULL)
+    {
+        /* Write the time stamp to debug log file */
+        fprintf(fpdbg, "%s(): ", func);
+        
+        /* Also print it to the screen */
+        printf("%s(): ", func);
+    }
+
+    /* Write the specified string to the debug log */
+    fprintf(fpdbg, "%s", str);
+
+    /* Also print it to the screen */
+    printf("%s", str);
 }

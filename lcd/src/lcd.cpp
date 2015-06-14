@@ -25,8 +25,8 @@
 #include "stubs.h"
 #endif
 
-/* Include Funduiono specific header file */
 #include "lcd.h"
+#include "logger.h"
 
 #define LCD_COMMAND_TRACE 0
 
@@ -61,37 +61,6 @@ const char *ByteToBinary(char x)
   }
   
   return b;
-}
-
-/*************************************************************************************
- *
- * Function:     PrintProgramArgument
- *
- * Description:  Simple trace function for tracing the text given in the program argument
- *
- * Parameters:   *text: pointer to the string, size: number of characters to print
- *
- * Return:       void
- *
- *************************************************************************************/
-void PrintProgramArgument(char *text, unsigned int size)
-{
-  int i;
-  
-  printf("Printing following text to LCD:\n");
-
-  for(i = 0; i <= strlen(text)-1; i++)
-  {
-    /* Check if the size increases one line */
-    if(i == LCD_COLS)
-    {
-      printf("\n");
-    }
-    
-    /* Write the character to the LCD */
-    printf("%c", text[i]);
-  }
-  printf("\n");
 }
 
 /*************************************************************************************
@@ -414,18 +383,19 @@ void InitializeLCD()
  *************************************************************************************/
 void PrintLcdText(char *text)
 {
-  /* Trace the program argument */
-  PrintProgramArgument(text, strlen(text)-1);
-  
-  /* Connect to the LCD display on the I2C bus and register a file descriptor handle */
-  fd = ConnectI2CSlave(LCD_FILE_DESCRIPTOR, LCD_I2C_ADDRESS);
-    
-  /* Setup the LCD */
-  InitializeLCD();
+    HC_PRINT("Printing following text to LCD:\n");
+    HC_PRINT(text);
+    HC_PRINT("\n");
 
-  /* Move cursor to first line 0th position */
-  SetCursor(0, 0);
+    /* Connect to the LCD display on the I2C bus and register a file descriptor handle */
+    fd = ConnectI2CSlave(LCD_FILE_DESCRIPTOR, LCD_I2C_ADDRESS);
+    
+    /* Setup the LCD */
+    InitializeLCD();
+
+    /* Move cursor to first line 0th position */
+    SetCursor(0, 0);
   
-  /* Print some text on the LCD */
-  PrintText(text, strlen(text)-1);
+    /* Print some text on the LCD */
+    PrintText(text, strlen(text)-1);
 }
