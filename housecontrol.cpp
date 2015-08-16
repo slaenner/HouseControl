@@ -91,73 +91,121 @@ void ReadSensor(SensorData_t * ReturnData, int SensorId)
   }
 }
 
-bool handleCommand(char *cmd)
+bool handleCommand(serverCommand_t *serverCmd)
 {
     bool res = false;
 
     /* Print the received command on the LCD */
-    char lcdstr[16];
-    sprintf(lcdstr, "Cmd Received:   %s", cmd);
+    char lcdstr[32];
+    sprintf(lcdstr, "Cmd Received:   %s = %s", serverCmd->cmd, serverCmd->par);
     PrintLcdText(lcdstr);
-    
-    if(strcmp(cmd, "Light: ON") == 0)
-    {
-        RL_PRINT("Turning light on\n");
 
-        /* Enable override power and disable sensor */
-        bcmControlPin(LIGHT_POWER, gpioPinStateHigh);
-        bcmControlPin(SENSOR_POWER, gpioPinStateLow);
-    }
-    else if(strcmp(cmd, "Light: OFF") == 0)
+    /* Check if it is a command to control light */
+    if(!strcmp(serverCmd->cmd, "Light"))
     {
-        RL_PRINT("Turning light off\n");
+        if(strcmp(serverCmd->par, "On") == 0)
+        {
+            RL_PRINT("Turning light on\n");
 
-        /* Turn off power to both sensor and override relay */
-        bcmControlPin(LIGHT_POWER, gpioPinStateLow);
-        bcmControlPin(SENSOR_POWER, gpioPinStateLow);
-    }
-    else if(strcmp(cmd, "Light: SNS") == 0)
-    {
-        RL_PRINT("Light controlled by sensor\n");
+            /* Enable override power and disable sensor */
+            bcmControlPin(LIGHT_POWER, gpioPinStateHigh);
+            bcmControlPin(SENSOR_POWER, gpioPinStateLow);
+        }
+        else if(strcmp(serverCmd->par, "Off") == 0)
+        {
+            RL_PRINT("Turning light off\n");
 
-        /* Disable override power and enable sensor */
-        bcmControlPin(LIGHT_POWER, gpioPinStateLow);
-        bcmControlPin(SENSOR_POWER, gpioPinStateHigh);
-    }
-    else if(strcmp(cmd, "SHUTDOWN") == 0)
-    {
-        RL_PRINT("Light controlled by sensor and program shutdown\n");
+            /* Turn off power to both sensor and override relay */
+            bcmControlPin(LIGHT_POWER, gpioPinStateLow);
+            bcmControlPin(SENSOR_POWER, gpioPinStateLow);
+        }
+        else if(strcmp(serverCmd->par, "Sensor") == 0)
+        {
+            RL_PRINT("Light controlled by sensor\n");
 
-        /* Leave only sensor enabled when shutting down server */
-        bcmControlPin(LIGHT_POWER, gpioPinStateLow);
-        bcmControlPin(SENSOR_POWER, gpioPinStateHigh);
-        
-        /* Set return code to indicate program shutdown */
-        res = true;
+            /* Disable override power and enable sensor */
+            bcmControlPin(LIGHT_POWER, gpioPinStateLow);
+            bcmControlPin(SENSOR_POWER, gpioPinStateHigh);
+        }
+        else if(strcmp(serverCmd->par, "SHUTDOWN") == 0)
+        {
+            RL_PRINT("Light controlled by sensor and program shutdown\n");
+
+            /* Leave only sensor enabled when shutting down server */
+            bcmControlPin(LIGHT_POWER, gpioPinStateLow);
+            bcmControlPin(SENSOR_POWER, gpioPinStateHigh);
+            
+            /* Set return code to indicate program shutdown */
+            res = true;
+        }
     }
             
     return res;
 }
 
+/* Parses sever message and puts command into *cmd */
+bool parseMessage(char *msg, serverCommand_t *cmd)
+{
+    bool ret = false;
+    char printBuf[100];
+    char msgType[10];
+    char cmdType[10];
+    char cmdPars[10];
+
+    sprintf(printBuf, "Parsing server message:'%s'\n", msg);
+    RL_PRINT(printBuf);
+    
+    /* Parse message */
+    sscanf(msg, "%s : %s = %s ;", msgType, cmdType, cmdPars);
+
+    /* Ensure that server gave a command and that it was a light
+       control command */
+    if(!strcmp(msgType, "Cmd") && 
+       !strcmp(cmdType, "Light"))
+    {
+        strcpy(cmd->cmd, cmdType);
+        strcpy(cmd->par, cmdPars);
+
+        RL_PRINT("Extracted command:\n");
+        sprintf(printBuf, "  ->msgType = %s, cmdType = %s, cmdPar = %s\n", msgType, cmdType, cmdPars);
+        RL_PRINT(printBuf);
+
+        ret = true;
+    }
+
+    return ret;
+}
+
 int main(int argc, char **argv)
 {
+    bool run = true;
+
     /* Initialize */
     Init();
 
     /* Trace */
     RL_PRINT("System initialized\n");
 
-    while(1)
+    while(run)
     {
-        char cmd[16];
+        char msg[32];
+        serverCommand_t serverCmd;
     
         /* Listen for server messages */
-        socketServer->Listen(cmd);
-        
-        /* Call the command handler and exit in case command
-           indicates it */
-        if(handleCommand(cmd) == true)
-            break;
+        socketServer->Listen(msg);
+
+        /* Parse server message and extract command according
+           to defined command interface */
+        if(parseMessage(msg, &serverCmd))
+        {
+            /* Call the command handler and exit in case command
+               indicates it */
+            if(handleCommand(&serverCmd))
+            {
+                /* Terminate program */
+                run = false;
+            }
+        }
     }
     
     /* Shutdown */

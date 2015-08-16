@@ -79,7 +79,7 @@ void SocketServer::Listen(char *cmd)
         sprintf(printBuf, "Received packet from %s:%d\n",
                  inet_ntoa(cli_addr.sin_addr), ntohs(cli_addr.sin_port));
         RL_PRINT(printBuf);
-        sprintf(printBuf, "Packet data contents: %s\n", data);
+        sprintf(printBuf, "Packet lenght = %d, data contents: %s\n", slen, data);
         RL_PRINT(printBuf);
     }
     

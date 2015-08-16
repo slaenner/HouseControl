@@ -16,7 +16,7 @@
 
 #define SERVER_ADDRESS "localhost"
 #define SERVER_PORT 9930
-#define BUFLEN 512
+#define BUFLEN 1024
 #define SENSORDATASIZE 16
 #define PACKETDATASIZE 128
 
