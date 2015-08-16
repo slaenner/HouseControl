@@ -186,7 +186,7 @@ void dht11ReadSensorRetry(SensorData_t * ReturnData, int SensorId, int retries)
     ReturnData->NewData = DHT11_ERROR;
     
     /* Read sensor until result has been received successfull */
-    while((ReturnData->NewData != DHT11_OK)
+    while((ReturnData->NewData != DHT11_OK) &&
           (cnt <= retries))
     {
         RL_PRINT("Fetching data from DHT11\n");
