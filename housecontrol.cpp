@@ -20,8 +20,8 @@
 static FILE *LogFileHandle;
 static SocketServer* socketServer;
 
-#define LIGHT_POWER pinGPIO4
-#define SENSOR_POWER pinGPIO17
+#define LIGHT_POWER pinGPIO17
+#define SENSOR_POWER pinGPIO4
 
 void Init(void)
 {
@@ -41,6 +41,11 @@ void Init(void)
     bcmInitPin(LIGHT_POWER,  GPIO_OUTPUT); // Relay 0
     bcmInitPin(SENSOR_POWER, GPIO_OUTPUT); // Relay 1
     
+    //bcm2835_gpio_fsel(RPI_GPIO_P1_11, BCM2835_GPIO_FSEL_OUTP);
+    //bcm2835_gpio_write(RPI_GPIO_P1_11, HIGH);
+    //delay(1000);
+    //bcm2835_gpio_write(RPI_GPIO_P1_11, LOW);
+
     /* Initialize socket server */
     socketServer = new SocketServer();
     socketServer->CreateSocket();
@@ -54,6 +59,9 @@ void Exit(void)
 {
     /* Trace before log files are closed */
     RL_PRINT("Closing all handles\n");
+
+    /* Close BCM module */
+    bcmCloseModule();
 
     /* Close socket server */
     delete socketServer;

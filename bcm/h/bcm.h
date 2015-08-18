@@ -8,14 +8,14 @@
 // GPIO's defined on RP model B rev 2
 typedef enum
 {
-    pinGPIO4  =  7,
-    pinGPIO17 = 11,
-    pinGPIO18 = 12,
-    pinGPIO22 = 15,
-    pinGPIO23 = 16,
-    pinGPIO24 = 18,
-    pinGPIO25 = 22,
-    pinGPIO27 = 13
+    pinGPIO4  = RPI_GPIO_P1_07,
+    pinGPIO17 = RPI_GPIO_P1_11,
+    pinGPIO18 = RPI_GPIO_P1_12,
+    pinGPIO22 = RPI_GPIO_P1_15,
+    pinGPIO23 = RPI_GPIO_P1_16,
+    pinGPIO24 = RPI_GPIO_P1_18,
+    pinGPIO25 = RPI_GPIO_P1_22,
+    pinGPIO27 = RPI_GPIO_P1_13
 } gpioPinId;
 
 
@@ -32,6 +32,7 @@ typedef enum
 
 void bcmControlPin(gpioPinId gpio, gpioPinState state);
 void bcmInitPin(gpioPinId gpio, bcm2835FunctionSelect fsel);
-void bcmInitModule();
+void bcmInitModule(void);
+void bcmCloseModule(void);
 
 #endif /* BMC_H */
