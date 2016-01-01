@@ -21,5 +21,19 @@ typedef enum
     BCM2835_GPIO_FSEL_MASK  = 7    ///< Function select bits mask
 } bcm2835FunctionSelect;
 
+typedef enum
+{
+    RPI_GPIO_P1_07 =  4,
+    RPI_GPIO_P1_11 = 17,
+    RPI_GPIO_P1_12 = 18,
+	RPI_GPIO_P1_13 = 21,
+    RPI_GPIO_P1_15 = 22,
+    RPI_GPIO_P1_16 = 23,
+    RPI_GPIO_P1_18 = 24,
+    RPI_GPIO_P1_22 = 25
+} RPiGPIOPin;
+
 void bcm2835_gpio_fsel(int pin, int fsel);
 void bcm2835_gpio_write(int pin, int fsel);
+void bcm2835_close(void);
+void bcm2835_delay(int ms);

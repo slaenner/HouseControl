@@ -1,0 +1,1245 @@
+08-30-2015 17:49:22 loggerInit(): 
+
+#### New program session ####
+
+08-30-2015 17:49:22 loggerInit(): Initialized PrgDbgLog.txt for write
+08-30-2015 17:49:22 bcmInitModule(): BCM2835 initialized
+08-30-2015 17:49:22 bcmInitPin(): Initializing GPIO: GPIO17=1 [0: input, 1:output]
+08-30-2015 17:49:22 bcm2835_gpio_fsel(): Setting pin type
+08-30-2015 17:49:22 bcmInitPin(): Initializing GPIO: GPIO4=1 [0: input, 1:output]
+08-30-2015 17:49:22 bcm2835_gpio_fsel(): Setting pin type
+08-30-2015 17:49:22 SocketServer(): Creating server instance
+08-30-2015 17:49:22 CreateSocket(): Socket created successfully
+08-30-2015 17:49:22 Bind(): Success
+08-30-2015 17:49:22 Init(): Completed
+08-30-2015 17:49:22 main(): System initialized
+08-30-2015 17:49:22 Listen(): Listening for data on socket
+08-30-2015 18:02:28 Listen(): Received packet from 127.0.0.1:58926
+08-30-2015 18:02:28 Listen(): Packet lenght = 16, data contents: Cmd : Light = On ;
+08-30-2015 18:02:28 parseMessage(): Parsing server message:'Cmd : Light = On ;'
+08-30-2015 18:02:28 parseMessage(): Extracted command:
+08-30-2015 18:02:28 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+12-31-2015 11:33:08 loggerInit(): 
+
+#### New program session ####
+
+12-31-2015 11:33:08 loggerInit(): Initialized PrgDbgLog.txt for write
+12-31-2015 11:33:08 bcmInitModule(): BCM2835 initialized
+12-31-2015 11:33:08 bcmInitPin(): Initializing GPIO: GPIO17=1 [0: input, 1:output]
+12-31-2015 11:33:08 bcm2835_gpio_fsel(): Setting pin type
+12-31-2015 11:33:08 bcmInitPin(): Initializing GPIO: GPIO4=1 [0: input, 1:output]
+12-31-2015 11:33:08 bcm2835_gpio_fsel(): Setting pin type
+12-31-2015 11:33:08 SocketServer(): Creating server instance
+12-31-2015 11:33:08 CreateSocket(): Socket created successfully
+12-31-2015 11:33:08 Bind(): Success
+12-31-2015 11:33:08 Init(): Completed
+12-31-2015 11:33:08 main(): System initialized
+12-31-2015 11:33:08 Listen(): Listening for data on socket
+12-31-2015 11:43:05 Listen(): Received packet from 127.0.0.1:59667
+12-31-2015 11:43:05 Listen(): Packet lenght = 16, data contents: Light: ON
+12-31-2015 11:43:05 parseMessage(): Parsing server message:'Light: ON'
+12-31-2015 11:43:05 Listen(): Listening for data on socket
+12-31-2015 11:43:07 Listen(): Received packet from 127.0.0.1:59667
+12-31-2015 11:43:07 Listen(): Packet lenght = 16, data contents: Light: ON
+12-31-2015 11:43:07 parseMessage(): Parsing server message:'Light: ON'
+12-31-2015 11:43:07 Listen(): Listening for data on socket
+12-31-2015 11:43:09 Listen(): Received packet from 127.0.0.1:59667
+12-31-2015 11:43:09 Listen(): Packet lenght = 16, data contents: Light: ON
+12-31-2015 11:43:09 parseMessage(): Parsing server message:'Light: ON'
+12-31-2015 11:43:09 Listen(): Listening for data on socket
+12-31-2015 11:43:11 Listen(): Received packet from 127.0.0.1:59667
+12-31-2015 11:43:11 Listen(): Packet lenght = 16, data contents: Light: ON
+12-31-2015 11:43:11 parseMessage(): Parsing server message:'Light: ON'
+12-31-2015 11:43:11 Listen(): Listening for data on socket
+12-31-2015 11:43:13 Listen(): Received packet from 127.0.0.1:59667
+12-31-2015 11:43:13 Listen(): Packet lenght = 16, data contents: Light: ON
+12-31-2015 11:43:13 parseMessage(): Parsing server message:'Light: ON'
+12-31-2015 11:43:13 Listen(): Listening for data on socket
+12-31-2015 11:43:19 Listen(): Received packet from 127.0.0.1:58613
+12-31-2015 11:43:19 Listen(): Packet lenght = 16, data contents: SHUTDOWN
+12-31-2015 11:43:19 parseMessage(): Parsing server message:'SHUTDOWN'
+12-31-2015 11:43:19 Listen(): Listening for data on socket
+12-31-2015 11:51:44 Listen(): Received packet from 127.0.0.1:54112
+12-31-2015 11:51:44 Listen(): Packet lenght = 16, data contents: SHUTDOWN
+12-31-2015 11:51:44 parseMessage(): Parsing server message:'SHUTDOWN'
+12-31-2015 11:51:44 Listen(): Listening for data on socket
+12-31-2015 11:53:59 Listen(): Received packet from 127.0.0.1:51461
+12-31-2015 11:53:59 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+12-31-2015 11:53:59 parseMessage(): Parsing server message:'Cmd : Light = On'
+12-31-2015 11:53:59 parseMessage(): Extracted command:
+12-31-2015 11:53:59 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+12-31-2015 12:05:24 loggerInit(): 
+
+#### New program session ####
+
+12-31-2015 12:05:24 loggerInit(): Initialized PrgDbgLog.txt for write
+12-31-2015 12:05:24 bcmInitModule(): BCM2835 initialized
+12-31-2015 12:05:24 bcmInitPin(): Initializing GPIO: GPIO17=1 [0: input, 1:output]
+12-31-2015 12:05:24 bcm2835_gpio_fsel(): Setting pin type
+12-31-2015 12:05:24 bcmInitPin(): Initializing GPIO: GPIO4=1 [0: input, 1:output]
+12-31-2015 12:05:24 bcm2835_gpio_fsel(): Setting pin type
+12-31-2015 12:05:24 SocketServer(): Creating server instance
+12-31-2015 12:05:24 CreateSocket(): Socket created successfully
+12-31-2015 12:05:24 Bind(): Success
+12-31-2015 12:05:24 Init(): Completed
+12-31-2015 12:05:24 main(): System initialized
+12-31-2015 12:05:24 Listen(): Listening for data on socket
+12-31-2015 12:05:27 Listen(): Received packet from 127.0.0.1:54199
+12-31-2015 12:05:27 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+12-31-2015 12:05:27 parseMessage(): Parsing server message:'Cmd : Light = On'
+12-31-2015 12:05:27 parseMessage(): Extracted command:
+12-31-2015 12:05:27 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+12-31-2015 12:05:27 handleCommand(): Turning light on
+12-31-2015 12:05:27 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+12-31-2015 12:05:27 bcm2835_gpio_write(): Setting pin state
+12-31-2015 12:05:27 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+12-31-2015 12:05:27 bcm2835_gpio_write(): Setting pin state
+12-31-2015 12:05:27 Listen(): Listening for data on socket
+12-31-2015 12:05:42 Listen(): Received packet from 127.0.0.1:51203
+12-31-2015 12:05:42 Listen(): Packet lenght = 16, data contents: Light: ON
+12-31-2015 12:05:42 parseMessage(): Parsing server message:'Light: ON'
+12-31-2015 12:05:42 Listen(): Listening for data on socket
+12-31-2015 12:05:44 Listen(): Received packet from 127.0.0.1:51203
+12-31-2015 12:05:44 Listen(): Packet lenght = 16, data contents: Light: ON
+12-31-2015 12:05:44 parseMessage(): Parsing server message:'Light: ON'
+12-31-2015 12:05:44 Listen(): Listening for data on socket
+12-31-2015 12:05:46 Listen(): Received packet from 127.0.0.1:51203
+12-31-2015 12:05:46 Listen(): Packet lenght = 16, data contents: Light: ON
+12-31-2015 12:05:46 parseMessage(): Parsing server message:'Light: ON'
+12-31-2015 12:05:46 Listen(): Listening for data on socket
+12-31-2015 15:20:03 Listen(): Received packet from 127.0.0.1:52404
+12-31-2015 15:20:03 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+12-31-2015 15:20:03 parseMessage(): Parsing server message:'Cmd : Light = On'
+12-31-2015 15:20:03 parseMessage(): Extracted command:
+12-31-2015 15:20:03 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+12-31-2015 15:20:03 handleCommand(): Turning light on
+12-31-2015 15:20:03 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+12-31-2015 15:20:03 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:20:03 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+12-31-2015 15:20:03 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:20:03 Listen(): Listening for data on socket
+12-31-2015 15:20:51 Listen(): Received packet from 127.0.0.1:59468
+12-31-2015 15:20:51 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+12-31-2015 15:20:51 parseMessage(): Parsing server message:'Cmd : Light = On'
+12-31-2015 15:20:51 parseMessage(): Extracted command:
+12-31-2015 15:20:51 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+12-31-2015 15:20:51 handleCommand(): Turning light on
+12-31-2015 15:20:51 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+12-31-2015 15:20:51 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:20:51 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+12-31-2015 15:20:51 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:20:51 Listen(): Listening for data on socket
+12-31-2015 15:20:51 Listen(): Received packet from 127.0.0.1:59468
+12-31-2015 15:20:51 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+12-31-2015 15:20:51 parseMessage(): Parsing server message:'Cmd : Light = Off'
+12-31-2015 15:20:51 parseMessage(): Extracted command:
+12-31-2015 15:20:51 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+12-31-2015 15:20:51 handleCommand(): Turning light off
+12-31-2015 15:20:51 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:20:51 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:20:51 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+12-31-2015 15:20:51 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:20:51 Listen(): Listening for data on socket
+12-31-2015 15:20:51 Listen(): Received packet from 127.0.0.1:59468
+12-31-2015 15:20:51 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+12-31-2015 15:20:51 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+12-31-2015 15:20:51 parseMessage(): Extracted command:
+12-31-2015 15:20:51 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+12-31-2015 15:20:51 handleCommand(): Light controlled by sensor
+12-31-2015 15:20:51 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:20:51 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:20:51 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+12-31-2015 15:20:51 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:20:51 Listen(): Listening for data on socket
+12-31-2015 15:20:51 Listen(): Received packet from 127.0.0.1:59468
+12-31-2015 15:20:51 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+12-31-2015 15:20:51 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+12-31-2015 15:20:51 parseMessage(): Extracted command:
+12-31-2015 15:20:51 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+12-31-2015 15:20:51 handleCommand(): Light controlled by sensor
+12-31-2015 15:20:51 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:20:51 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:20:51 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+12-31-2015 15:20:51 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:20:51 Listen(): Listening for data on socket
+12-31-2015 15:21:32 Listen(): Received packet from 127.0.0.1:51019
+12-31-2015 15:21:32 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+12-31-2015 15:21:32 parseMessage(): Parsing server message:'Cmd : Light = On'
+12-31-2015 15:21:32 parseMessage(): Extracted command:
+12-31-2015 15:21:32 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+12-31-2015 15:21:32 handleCommand(): Turning light on
+12-31-2015 15:21:32 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+12-31-2015 15:21:32 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:21:32 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+12-31-2015 15:21:32 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:21:32 Listen(): Listening for data on socket
+12-31-2015 15:21:34 Listen(): Received packet from 127.0.0.1:51019
+12-31-2015 15:21:34 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+12-31-2015 15:21:34 parseMessage(): Parsing server message:'Cmd : Light = Off'
+12-31-2015 15:21:34 parseMessage(): Extracted command:
+12-31-2015 15:21:34 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+12-31-2015 15:21:34 handleCommand(): Turning light off
+12-31-2015 15:21:34 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:21:34 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:21:34 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+12-31-2015 15:21:34 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:21:34 Listen(): Listening for data on socket
+12-31-2015 15:21:36 Listen(): Received packet from 127.0.0.1:51019
+12-31-2015 15:21:36 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+12-31-2015 15:21:36 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+12-31-2015 15:21:36 parseMessage(): Extracted command:
+12-31-2015 15:21:36 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+12-31-2015 15:21:36 handleCommand(): Light controlled by sensor
+12-31-2015 15:21:36 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:21:36 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:21:36 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+12-31-2015 15:21:36 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:21:36 Listen(): Listening for data on socket
+12-31-2015 15:21:38 Listen(): Received packet from 127.0.0.1:51019
+12-31-2015 15:21:38 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+12-31-2015 15:21:38 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+12-31-2015 15:21:38 parseMessage(): Extracted command:
+12-31-2015 15:21:38 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+12-31-2015 15:21:38 handleCommand(): Light controlled by sensor
+12-31-2015 15:21:38 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:21:38 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:21:38 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+12-31-2015 15:21:38 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:21:38 Listen(): Listening for data on socket
+12-31-2015 15:22:18 Listen(): Received packet from 127.0.0.1:56175
+12-31-2015 15:22:18 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+12-31-2015 15:22:18 parseMessage(): Parsing server message:'Cmd : Light = On'
+12-31-2015 15:22:18 parseMessage(): Extracted command:
+12-31-2015 15:22:18 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+12-31-2015 15:22:18 handleCommand(): Turning light on
+12-31-2015 15:22:18 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+12-31-2015 15:22:18 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:18 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+12-31-2015 15:22:18 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:18 Listen(): Listening for data on socket
+12-31-2015 15:22:20 Listen(): Received packet from 127.0.0.1:56175
+12-31-2015 15:22:20 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+12-31-2015 15:22:20 parseMessage(): Parsing server message:'Cmd : Light = Off'
+12-31-2015 15:22:20 parseMessage(): Extracted command:
+12-31-2015 15:22:20 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+12-31-2015 15:22:20 handleCommand(): Turning light off
+12-31-2015 15:22:20 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:22:20 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:20 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+12-31-2015 15:22:20 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:20 Listen(): Listening for data on socket
+12-31-2015 15:22:22 Listen(): Received packet from 127.0.0.1:56175
+12-31-2015 15:22:22 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+12-31-2015 15:22:22 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+12-31-2015 15:22:22 parseMessage(): Extracted command:
+12-31-2015 15:22:22 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+12-31-2015 15:22:22 handleCommand(): Light controlled by sensor
+12-31-2015 15:22:22 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:22:22 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:22 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+12-31-2015 15:22:22 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:22 Listen(): Listening for data on socket
+12-31-2015 15:22:24 Listen(): Received packet from 127.0.0.1:56175
+12-31-2015 15:22:24 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+12-31-2015 15:22:24 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+12-31-2015 15:22:24 parseMessage(): Extracted command:
+12-31-2015 15:22:24 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+12-31-2015 15:22:24 handleCommand(): Light controlled by sensor
+12-31-2015 15:22:24 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:22:24 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:24 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+12-31-2015 15:22:24 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:24 Listen(): Listening for data on socket
+12-31-2015 15:22:38 Listen(): Received packet from 127.0.0.1:60613
+12-31-2015 15:22:38 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+12-31-2015 15:22:38 parseMessage(): Parsing server message:'Cmd : Light = On'
+12-31-2015 15:22:38 parseMessage(): Extracted command:
+12-31-2015 15:22:38 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+12-31-2015 15:22:38 handleCommand(): Turning light on
+12-31-2015 15:22:38 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+12-31-2015 15:22:38 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:38 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+12-31-2015 15:22:38 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:38 Listen(): Listening for data on socket
+12-31-2015 15:22:40 Listen(): Received packet from 127.0.0.1:60613
+12-31-2015 15:22:40 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+12-31-2015 15:22:40 parseMessage(): Parsing server message:'Cmd : Light = Off'
+12-31-2015 15:22:40 parseMessage(): Extracted command:
+12-31-2015 15:22:40 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+12-31-2015 15:22:40 handleCommand(): Turning light off
+12-31-2015 15:22:40 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:22:40 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:40 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+12-31-2015 15:22:40 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:40 Listen(): Listening for data on socket
+12-31-2015 15:22:42 Listen(): Received packet from 127.0.0.1:60613
+12-31-2015 15:22:42 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+12-31-2015 15:22:42 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+12-31-2015 15:22:42 parseMessage(): Extracted command:
+12-31-2015 15:22:42 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+12-31-2015 15:22:42 handleCommand(): Light controlled by sensor
+12-31-2015 15:22:42 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:22:42 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:42 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+12-31-2015 15:22:42 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:42 Listen(): Listening for data on socket
+12-31-2015 15:22:44 Listen(): Received packet from 127.0.0.1:60613
+12-31-2015 15:22:44 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+12-31-2015 15:22:44 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+12-31-2015 15:22:44 parseMessage(): Extracted command:
+12-31-2015 15:22:44 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+12-31-2015 15:22:44 handleCommand(): Light controlled by sensor
+12-31-2015 15:22:44 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:22:44 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:44 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+12-31-2015 15:22:44 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:22:44 Listen(): Listening for data on socket
+12-31-2015 15:23:07 Listen(): Received packet from 127.0.0.1:62120
+12-31-2015 15:23:07 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+12-31-2015 15:23:07 parseMessage(): Parsing server message:'Cmd : Light = On'
+12-31-2015 15:23:07 parseMessage(): Extracted command:
+12-31-2015 15:23:07 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+12-31-2015 15:23:07 handleCommand(): Turning light on
+12-31-2015 15:23:07 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+12-31-2015 15:23:07 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:23:07 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+12-31-2015 15:23:07 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:23:07 Listen(): Listening for data on socket
+12-31-2015 15:23:09 Listen(): Received packet from 127.0.0.1:62120
+12-31-2015 15:23:09 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+12-31-2015 15:23:09 parseMessage(): Parsing server message:'Cmd : Light = Off'
+12-31-2015 15:23:09 parseMessage(): Extracted command:
+12-31-2015 15:23:09 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+12-31-2015 15:23:09 handleCommand(): Turning light off
+12-31-2015 15:23:09 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:23:09 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:23:09 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+12-31-2015 15:23:09 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:23:09 Listen(): Listening for data on socket
+12-31-2015 15:23:11 Listen(): Received packet from 127.0.0.1:62120
+12-31-2015 15:23:11 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+12-31-2015 15:23:11 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+12-31-2015 15:23:11 parseMessage(): Extracted command:
+12-31-2015 15:23:11 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+12-31-2015 15:23:11 handleCommand(): Light controlled by sensor
+12-31-2015 15:23:11 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:23:11 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:23:11 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+12-31-2015 15:23:11 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:23:11 Listen(): Listening for data on socket
+12-31-2015 15:23:13 Listen(): Received packet from 127.0.0.1:62120
+12-31-2015 15:23:13 Listen(): Packet lenght = 16, data contents: Cmd : Light = SHUTDOWN
+12-31-2015 15:23:13 parseMessage(): Parsing server message:'Cmd : Light = SHUTDOWN'
+12-31-2015 15:23:13 parseMessage(): Extracted command:
+12-31-2015 15:23:13 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = SHUTDOWN
+Printing following text to LCD:
+Cmd Received:   Light = SHUTDOWN
+12-31-2015 15:23:13 handleCommand(): Light controlled by sensor and program shutdown
+12-31-2015 15:23:13 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:23:13 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:23:13 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+12-31-2015 15:23:13 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:23:13 Exit(): Closing all handles
+12-31-2015 15:23:13 bcmCloseModule(): BCM2835 closed
+12-31-2015 15:23:13 ~SocketServer(): Deleting server instance
+12-31-2015 15:23:13 loggerExit(): Closing debug log file
+12-31-2015 15:25:45 loggerInit(): 
+
+#### New program session ####
+
+12-31-2015 15:25:45 loggerInit(): Initialized PrgDbgLog.txt for write
+12-31-2015 15:25:45 bcmInitModule(): BCM2835 initialized
+12-31-2015 15:25:45 bcmInitPin(): Initializing GPIO: GPIO17=1 [0: input, 1:output]
+12-31-2015 15:25:45 bcm2835_gpio_fsel(): Setting pin type
+12-31-2015 15:25:45 bcmInitPin(): Initializing GPIO: GPIO4=1 [0: input, 1:output]
+12-31-2015 15:25:45 bcm2835_gpio_fsel(): Setting pin type
+12-31-2015 15:25:45 SocketServer(): Creating server instance
+12-31-2015 15:25:45 CreateSocket(): Socket created successfully
+12-31-2015 15:25:45 Bind(): Success
+12-31-2015 15:25:45 Init(): Completed
+12-31-2015 15:25:45 main(): System initialized
+12-31-2015 15:25:45 Listen(): Listening for data on socket
+12-31-2015 15:27:08 Listen(): Received packet from 127.0.0.1:50569
+12-31-2015 15:27:08 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+12-31-2015 15:27:08 parseMessage(): Parsing server message:'Cmd : Light = On'
+12-31-2015 15:27:08 parseMessage(): Extracted command:
+12-31-2015 15:27:08 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+12-31-2015 15:27:08 handleCommand(): Turning light on
+12-31-2015 15:27:08 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+12-31-2015 15:27:08 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:27:08 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+12-31-2015 15:27:08 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:27:08 Listen(): Listening for data on socket
+12-31-2015 15:27:10 Listen(): Received packet from 127.0.0.1:50569
+12-31-2015 15:27:10 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+12-31-2015 15:27:10 parseMessage(): Parsing server message:'Cmd : Light = Off'
+12-31-2015 15:27:10 parseMessage(): Extracted command:
+12-31-2015 15:27:10 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+12-31-2015 15:27:10 handleCommand(): Turning light off
+12-31-2015 15:27:10 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:27:10 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:27:10 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+12-31-2015 15:27:10 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:27:10 Listen(): Listening for data on socket
+12-31-2015 15:27:12 Listen(): Received packet from 127.0.0.1:50569
+12-31-2015 15:27:12 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+12-31-2015 15:27:12 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+12-31-2015 15:27:12 parseMessage(): Extracted command:
+12-31-2015 15:27:12 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+12-31-2015 15:27:12 handleCommand(): Light controlled by sensor
+12-31-2015 15:27:12 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:27:12 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:27:12 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+12-31-2015 15:27:12 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:27:12 Listen(): Listening for data on socket
+12-31-2015 15:27:14 Listen(): Received packet from 127.0.0.1:50569
+12-31-2015 15:27:14 Listen(): Packet lenght = 16, data contents: Cmd : Light = SHUTDOWN
+12-31-2015 15:27:14 parseMessage(): Parsing server message:'Cmd : Light = SHUTDOWN'
+12-31-2015 15:27:14 parseMessage(): Extracted command:
+12-31-2015 15:27:14 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = SHUTDOWN
+Printing following text to LCD:
+Cmd Received:   Light = SHUTDOWN
+12-31-2015 15:27:14 handleCommand(): Light controlled by sensor and program shutdown
+12-31-2015 15:27:14 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+12-31-2015 15:27:14 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:27:14 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+12-31-2015 15:27:14 bcm2835_gpio_write(): Setting pin state
+12-31-2015 15:27:14 Exit(): Closing all handles
+12-31-2015 15:27:14 bcmCloseModule(): BCM2835 closed
+12-31-2015 15:27:14 ~SocketServer(): Deleting server instance
+12-31-2015 15:27:14 loggerExit(): Closing debug log file
+01-01-2016 22:53:08 loggerInit(): 
+
+#### New program session ####
+
+01-01-2016 22:53:08 loggerInit(): Initialized PrgDbgLog.txt for write
+01-01-2016 22:53:08 bcmInitModule(): BCM2835 initialized
+01-01-2016 22:53:08 bcmInitPin(): Initializing GPIO: GPIO17=1 [0: input, 1:output]
+01-01-2016 22:53:08 bcm2835_gpio_fsel(): Setting pin type
+01-01-2016 22:53:08 bcmInitPin(): Initializing GPIO: GPIO4=1 [0: input, 1:output]
+01-01-2016 22:53:08 bcm2835_gpio_fsel(): Setting pin type
+01-01-2016 22:53:08 SocketServer(): Creating server instance
+01-01-2016 22:53:08 CreateSocket(): Socket created successfully
+01-01-2016 22:53:08 Bind(): Success
+01-01-2016 22:53:08 Init(): Completed
+01-01-2016 22:53:08 main(): System initialized
+01-01-2016 22:53:08 Listen(): Listening for data on socket
+01-01-2016 22:53:12 Listen(): Received packet from 127.0.0.1:63248
+01-01-2016 22:53:12 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+01-01-2016 22:53:12 parseMessage(): Parsing server message:'Cmd : Light = On'
+01-01-2016 22:53:12 parseMessage(): Extracted command:
+01-01-2016 22:53:12 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+01-01-2016 22:53:12 handleCommand(): Turning light on
+01-01-2016 22:53:12 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 22:53:12 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:53:12 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 22:53:12 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:53:12 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+01-01-2016 22:53:12 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:53:12 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 22:53:12 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:53:12 Listen(): Listening for data on socket
+01-01-2016 22:53:14 Listen(): Received packet from 127.0.0.1:63248
+01-01-2016 22:53:14 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+01-01-2016 22:53:14 parseMessage(): Parsing server message:'Cmd : Light = Off'
+01-01-2016 22:53:14 parseMessage(): Extracted command:
+01-01-2016 22:53:14 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+01-01-2016 22:53:14 handleCommand(): Turning light off
+01-01-2016 22:53:14 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 22:53:14 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:53:14 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 22:53:14 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:53:14 Listen(): Listening for data on socket
+01-01-2016 22:53:16 Listen(): Received packet from 127.0.0.1:63248
+01-01-2016 22:53:16 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+01-01-2016 22:53:16 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+01-01-2016 22:53:16 parseMessage(): Extracted command:
+01-01-2016 22:53:16 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+01-01-2016 22:53:16 handleCommand(): Light controlled by sensor
+01-01-2016 22:53:16 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 22:53:16 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:53:16 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 22:53:16 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:53:16 Listen(): Listening for data on socket
+01-01-2016 22:53:18 Listen(): Received packet from 127.0.0.1:63248
+01-01-2016 22:53:18 Listen(): Packet lenght = 16, data contents: Cmd : Light = SHUTDOWN
+01-01-2016 22:53:18 parseMessage(): Parsing server message:'Cmd : Light = SHUTDOWN'
+01-01-2016 22:53:18 parseMessage(): Extracted command:
+01-01-2016 22:53:18 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = SHUTDOWN
+Printing following text to LCD:
+Cmd Received:   Light = SHUTDOWN
+01-01-2016 22:53:18 handleCommand(): Light controlled by sensor and program shutdown
+01-01-2016 22:53:18 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 22:53:18 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:53:18 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 22:53:18 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:53:18 Exit(): Closing all handles
+01-01-2016 22:53:18 bcmCloseModule(): BCM2835 closed
+01-01-2016 22:53:18 ~SocketServer(): Deleting server instance
+01-01-2016 22:53:18 loggerExit(): Closing debug log file
+01-01-2016 22:58:05 loggerInit(): 
+
+#### New program session ####
+
+01-01-2016 22:58:05 loggerInit(): Initialized PrgDbgLog.txt for write
+01-01-2016 22:58:05 bcmInitModule(): BCM2835 initialized
+01-01-2016 22:58:05 bcmInitPin(): Initializing GPIO: GPIO17=1 [0: input, 1:output]
+01-01-2016 22:58:05 bcm2835_gpio_fsel(): Setting pin type
+01-01-2016 22:58:05 bcmInitPin(): Initializing GPIO: GPIO4=1 [0: input, 1:output]
+01-01-2016 22:58:05 bcm2835_gpio_fsel(): Setting pin type
+01-01-2016 22:58:05 SocketServer(): Creating server instance
+01-01-2016 22:58:05 CreateSocket(): Socket created successfully
+01-01-2016 22:58:05 Bind(): Success
+01-01-2016 22:58:05 Init(): Completed
+01-01-2016 22:58:05 main(): System initialized
+01-01-2016 22:58:05 Listen(): Listening for data on socket
+01-01-2016 22:58:12 Listen(): Received packet from 127.0.0.1:56520
+01-01-2016 22:58:12 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+01-01-2016 22:58:12 parseMessage(): Parsing server message:'Cmd : Light = On'
+01-01-2016 22:58:12 parseMessage(): Extracted command:
+01-01-2016 22:58:12 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+01-01-2016 22:58:12 handleCommand(): Turning light on
+01-01-2016 22:58:12 ToggleSwitch(): ToggleSwitch(): SwitchNum0=0 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 22:58:12 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 22:58:12 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:12 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 22:58:12 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:12 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+01-01-2016 22:58:12 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:12 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 22:58:12 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:12 Listen(): Listening for data on socket
+01-01-2016 22:58:14 Listen(): Received packet from 127.0.0.1:56520
+01-01-2016 22:58:14 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+01-01-2016 22:58:14 parseMessage(): Parsing server message:'Cmd : Light = Off'
+01-01-2016 22:58:14 parseMessage(): Extracted command:
+01-01-2016 22:58:14 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+01-01-2016 22:58:14 handleCommand(): Turning light off
+01-01-2016 22:58:14 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 22:58:14 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:14 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 22:58:14 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:14 Listen(): Listening for data on socket
+01-01-2016 22:58:16 Listen(): Received packet from 127.0.0.1:56520
+01-01-2016 22:58:16 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+01-01-2016 22:58:16 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+01-01-2016 22:58:16 parseMessage(): Extracted command:
+01-01-2016 22:58:16 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+01-01-2016 22:58:16 handleCommand(): Light controlled by sensor
+01-01-2016 22:58:16 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 22:58:16 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:16 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 22:58:16 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:16 Listen(): Listening for data on socket
+01-01-2016 22:58:18 Listen(): Received packet from 127.0.0.1:56520
+01-01-2016 22:58:18 Listen(): Packet lenght = 16, data contents: Cmd : Light = SHUTDOWN
+01-01-2016 22:58:18 parseMessage(): Parsing server message:'Cmd : Light = SHUTDOWN'
+01-01-2016 22:58:18 parseMessage(): Extracted command:
+01-01-2016 22:58:18 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = SHUTDOWN
+Printing following text to LCD:
+Cmd Received:   Light = SHUTDOWN
+01-01-2016 22:58:19 handleCommand(): Light controlled by sensor and program shutdown
+01-01-2016 22:58:19 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 22:58:19 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:19 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 22:58:19 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:19 Exit(): Closing all handles
+01-01-2016 22:58:19 bcmCloseModule(): BCM2835 closed
+01-01-2016 22:58:19 ~SocketServer(): Deleting server instance
+01-01-2016 22:58:19 loggerExit(): Closing debug log file
+01-01-2016 22:58:27 loggerInit(): 
+
+#### New program session ####
+
+01-01-2016 22:58:27 loggerInit(): Initialized PrgDbgLog.txt for write
+01-01-2016 22:58:27 bcmInitModule(): BCM2835 initialized
+01-01-2016 22:58:27 bcmInitPin(): Initializing GPIO: GPIO17=1 [0: input, 1:output]
+01-01-2016 22:58:27 bcm2835_gpio_fsel(): Setting pin type
+01-01-2016 22:58:27 bcmInitPin(): Initializing GPIO: GPIO4=1 [0: input, 1:output]
+01-01-2016 22:58:27 bcm2835_gpio_fsel(): Setting pin type
+01-01-2016 22:58:27 SocketServer(): Creating server instance
+01-01-2016 22:58:27 CreateSocket(): Socket created successfully
+01-01-2016 22:58:27 Bind(): Success
+01-01-2016 22:58:27 Init(): Completed
+01-01-2016 22:58:27 main(): System initialized
+01-01-2016 22:58:27 Listen(): Listening for data on socket
+01-01-2016 22:58:32 Listen(): Received packet from 127.0.0.1:55591
+01-01-2016 22:58:32 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+01-01-2016 22:58:32 parseMessage(): Parsing server message:'Cmd : Light = On'
+01-01-2016 22:58:32 parseMessage(): Extracted command:
+01-01-2016 22:58:32 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+01-01-2016 22:58:32 handleCommand(): Turning light on
+01-01-2016 22:58:32 ToggleSwitch(): SwitchNum0=0 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 22:58:32 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 22:58:32 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:33 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 22:58:33 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:33 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+01-01-2016 22:58:33 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:33 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 22:58:33 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:33 Listen(): Listening for data on socket
+01-01-2016 22:58:35 Listen(): Received packet from 127.0.0.1:55591
+01-01-2016 22:58:35 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+01-01-2016 22:58:35 parseMessage(): Parsing server message:'Cmd : Light = Off'
+01-01-2016 22:58:35 parseMessage(): Extracted command:
+01-01-2016 22:58:35 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+01-01-2016 22:58:35 handleCommand(): Turning light off
+01-01-2016 22:58:35 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 22:58:35 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:35 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 22:58:35 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:35 Listen(): Listening for data on socket
+01-01-2016 22:58:37 Listen(): Received packet from 127.0.0.1:55591
+01-01-2016 22:58:37 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+01-01-2016 22:58:37 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+01-01-2016 22:58:37 parseMessage(): Extracted command:
+01-01-2016 22:58:37 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+01-01-2016 22:58:37 handleCommand(): Light controlled by sensor
+01-01-2016 22:58:37 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 22:58:37 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:37 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 22:58:37 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:37 Listen(): Listening for data on socket
+01-01-2016 22:58:39 Listen(): Received packet from 127.0.0.1:55591
+01-01-2016 22:58:39 Listen(): Packet lenght = 16, data contents: Cmd : Light = SHUTDOWN
+01-01-2016 22:58:39 parseMessage(): Parsing server message:'Cmd : Light = SHUTDOWN'
+01-01-2016 22:58:39 parseMessage(): Extracted command:
+01-01-2016 22:58:39 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = SHUTDOWN
+Printing following text to LCD:
+Cmd Received:   Light = SHUTDOWN
+01-01-2016 22:58:39 handleCommand(): Light controlled by sensor and program shutdown
+01-01-2016 22:58:39 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 22:58:39 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:39 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 22:58:39 bcm2835_gpio_write(): Setting pin state
+01-01-2016 22:58:39 Exit(): Closing all handles
+01-01-2016 22:58:39 bcmCloseModule(): BCM2835 closed
+01-01-2016 22:58:39 ~SocketServer(): Deleting server instance
+01-01-2016 22:58:39 loggerExit(): Closing debug log file
+01-01-2016 23:00:25 loggerInit(): 
+
+#### New program session ####
+
+01-01-2016 23:00:25 loggerInit(): Initialized PrgDbgLog.txt for write
+01-01-2016 23:00:25 bcmInitModule(): BCM2835 initialized
+01-01-2016 23:00:25 bcmInitPin(): Initializing GPIO: GPIO17=1 [0: input, 1:output]
+01-01-2016 23:00:25 bcm2835_gpio_fsel(): Setting pin type
+01-01-2016 23:00:25 bcmInitPin(): Initializing GPIO: GPIO4=1 [0: input, 1:output]
+01-01-2016 23:00:25 bcm2835_gpio_fsel(): Setting pin type
+01-01-2016 23:00:25 SocketServer(): Creating server instance
+01-01-2016 23:00:25 CreateSocket(): Socket created successfully
+01-01-2016 23:00:25 Bind(): Success
+01-01-2016 23:00:25 Init(): Completed
+01-01-2016 23:00:25 main(): System initialized
+01-01-2016 23:00:25 Listen(): Listening for data on socket
+01-01-2016 23:00:28 Listen(): Received packet from 127.0.0.1:52503
+01-01-2016 23:00:28 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+01-01-2016 23:00:28 parseMessage(): Parsing server message:'Cmd : Light = On'
+01-01-2016 23:00:28 parseMessage(): Extracted command:
+01-01-2016 23:00:28 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+01-01-2016 23:00:28 handleCommand(): Turning light on
+01-01-2016 23:00:28 ToggleSwitch(): SwitchId0=0 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:00:28 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:00:28 bcm2835_gpio_write(): Setting pin state
+01-01-2016 23:00:28 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:00:28 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:00:28 bcm2835_gpio_write(): Setting pin state
+01-01-2016 23:00:28 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+01-01-2016 23:00:28 bcm2835_gpio_write(): Setting pin state
+01-01-2016 23:00:28 bcm2835_delay(): Waiting 100 ms
+01-01-2016 23:00:28 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 23:00:28 bcm2835_gpio_write(): Setting pin state
+01-01-2016 23:00:28 Listen(): Listening for data on socket
+01-01-2016 23:00:30 Listen(): Received packet from 127.0.0.1:52503
+01-01-2016 23:00:30 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+01-01-2016 23:00:30 parseMessage(): Parsing server message:'Cmd : Light = Off'
+01-01-2016 23:00:30 parseMessage(): Extracted command:
+01-01-2016 23:00:30 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+01-01-2016 23:00:30 handleCommand(): Turning light off
+01-01-2016 23:00:30 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 23:00:30 bcm2835_gpio_write(): Setting pin state
+01-01-2016 23:00:30 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:00:30 bcm2835_gpio_write(): Setting pin state
+01-01-2016 23:00:30 Listen(): Listening for data on socket
+01-01-2016 23:00:32 Listen(): Received packet from 127.0.0.1:52503
+01-01-2016 23:00:32 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+01-01-2016 23:00:32 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+01-01-2016 23:00:32 parseMessage(): Extracted command:
+01-01-2016 23:00:32 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+01-01-2016 23:00:32 handleCommand(): Light controlled by sensor
+01-01-2016 23:00:32 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 23:00:32 bcm2835_gpio_write(): Setting pin state
+01-01-2016 23:00:32 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:00:32 bcm2835_gpio_write(): Setting pin state
+01-01-2016 23:00:32 Listen(): Listening for data on socket
+01-01-2016 23:00:34 Listen(): Received packet from 127.0.0.1:52503
+01-01-2016 23:00:34 Listen(): Packet lenght = 16, data contents: Cmd : Light = SHUTDOWN
+01-01-2016 23:00:34 parseMessage(): Parsing server message:'Cmd : Light = SHUTDOWN'
+01-01-2016 23:00:34 parseMessage(): Extracted command:
+01-01-2016 23:00:34 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = SHUTDOWN
+Printing following text to LCD:
+Cmd Received:   Light = SHUTDOWN
+01-01-2016 23:00:34 handleCommand(): Light controlled by sensor and program shutdown
+01-01-2016 23:00:34 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 23:00:34 bcm2835_gpio_write(): Setting pin state
+01-01-2016 23:00:34 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:00:34 bcm2835_gpio_write(): Setting pin state
+01-01-2016 23:00:34 Exit(): Closing all handles
+01-01-2016 23:00:34 bcmCloseModule(): BCM2835 closed
+01-01-2016 23:00:34 ~SocketServer(): Deleting server instance
+01-01-2016 23:00:34 loggerExit(): Closing debug log file
+01-01-2016 23:03:49 loggerInit(): 
+
+#### New program session ####
+
+01-01-2016 23:03:49 loggerInit(): Initialized PrgDbgLog.txt for write
+01-01-2016 23:03:49 bcmInitModule(): BCM2835 initialized
+01-01-2016 23:03:49 bcmInitPin(): Initializing GPIO: GPIO17=1 [0: input, 1:output]
+01-01-2016 23:03:49 bcm2835_gpio_fsel(): Setting pin17 to type 1
+01-01-2016 23:03:49 bcmInitPin(): Initializing GPIO: GPIO4=1 [0: input, 1:output]
+01-01-2016 23:03:49 bcm2835_gpio_fsel(): Setting pin4 to type 1
+01-01-2016 23:03:49 SocketServer(): Creating server instance
+01-01-2016 23:03:49 CreateSocket(): Socket created successfully
+01-01-2016 23:03:49 Bind(): Success
+01-01-2016 23:03:49 Init(): Completed
+01-01-2016 23:03:49 main(): System initialized
+01-01-2016 23:03:49 Listen(): Listening for data on socket
+01-01-2016 23:03:52 Listen(): Received packet from 127.0.0.1:52010
+01-01-2016 23:03:52 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+01-01-2016 23:03:52 parseMessage(): Parsing server message:'Cmd : Light = On'
+01-01-2016 23:03:52 parseMessage(): Extracted command:
+01-01-2016 23:03:52 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+01-01-2016 23:03:52 handleCommand(): Turning light on
+01-01-2016 23:03:52 ToggleSwitch(): SwitchId0=0 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:03:52 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:03:52 bcm2835_gpio_write(): Setting pin4=1 [0: low, 1:high]
+01-01-2016 23:03:52 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:03:52 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:03:52 bcm2835_gpio_write(): Setting pin4=0 [0: low, 1:high]
+01-01-2016 23:03:52 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+01-01-2016 23:03:52 bcm2835_gpio_write(): Setting pin17=1 [0: low, 1:high]
+01-01-2016 23:03:52 bcm2835_delay(): Waiting 100 ms
+01-01-2016 23:03:52 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 23:03:52 bcm2835_gpio_write(): Setting pin17=0 [0: low, 1:high]
+01-01-2016 23:03:52 Listen(): Listening for data on socket
+01-01-2016 23:03:54 Listen(): Received packet from 127.0.0.1:52010
+01-01-2016 23:03:54 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+01-01-2016 23:03:54 parseMessage(): Parsing server message:'Cmd : Light = Off'
+01-01-2016 23:03:54 parseMessage(): Extracted command:
+01-01-2016 23:03:54 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+01-01-2016 23:03:54 handleCommand(): Turning light off
+01-01-2016 23:03:54 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 23:03:54 bcm2835_gpio_write(): Setting pin17=0 [0: low, 1:high]
+01-01-2016 23:03:54 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:03:54 bcm2835_gpio_write(): Setting pin4=0 [0: low, 1:high]
+01-01-2016 23:03:54 Listen(): Listening for data on socket
+01-01-2016 23:03:56 Listen(): Received packet from 127.0.0.1:52010
+01-01-2016 23:03:56 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+01-01-2016 23:03:56 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+01-01-2016 23:03:56 parseMessage(): Extracted command:
+01-01-2016 23:03:56 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+01-01-2016 23:03:56 handleCommand(): Light controlled by sensor
+01-01-2016 23:03:56 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 23:03:56 bcm2835_gpio_write(): Setting pin17=0 [0: low, 1:high]
+01-01-2016 23:03:56 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:03:56 bcm2835_gpio_write(): Setting pin4=1 [0: low, 1:high]
+01-01-2016 23:03:56 Listen(): Listening for data on socket
+01-01-2016 23:03:58 Listen(): Received packet from 127.0.0.1:52010
+01-01-2016 23:03:58 Listen(): Packet lenght = 16, data contents: Cmd : Light = SHUTDOWN
+01-01-2016 23:03:58 parseMessage(): Parsing server message:'Cmd : Light = SHUTDOWN'
+01-01-2016 23:03:58 parseMessage(): Extracted command:
+01-01-2016 23:03:58 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = SHUTDOWN
+Printing following text to LCD:
+Cmd Received:   Light = SHUTDOWN
+01-01-2016 23:03:58 handleCommand(): Light controlled by sensor and program shutdown
+01-01-2016 23:03:58 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 23:03:58 bcm2835_gpio_write(): Setting pin17=0 [0: low, 1:high]
+01-01-2016 23:03:58 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:03:58 bcm2835_gpio_write(): Setting pin4=1 [0: low, 1:high]
+01-01-2016 23:03:58 Exit(): Closing all handles
+01-01-2016 23:03:58 bcmCloseModule(): BCM2835 closed
+01-01-2016 23:03:58 ~SocketServer(): Deleting server instance
+01-01-2016 23:03:58 loggerExit(): Closing debug log file
+01-01-2016 23:06:14 loggerInit(): 
+
+#### New program session ####
+
+01-01-2016 23:06:14 loggerInit(): Initialized PrgDbgLog.txt for write
+01-01-2016 23:06:14 bcmInitModule(): BCM2835 initialized
+01-01-2016 23:06:14 bcmInitPin(): Initializing GPIO: GPIO17=1 [0: input, 1:output]
+01-01-2016 23:06:14 bcm2835_gpio_fsel(): Setting GPIO17 to type 1 [0: input, 1:output]
+01-01-2016 23:06:14 bcmInitPin(): Initializing GPIO: GPIO4=1 [0: input, 1:output]
+01-01-2016 23:06:14 bcm2835_gpio_fsel(): Setting GPIO4 to type 1 [0: input, 1:output]
+01-01-2016 23:06:14 SocketServer(): Creating server instance
+01-01-2016 23:06:14 CreateSocket(): Socket created successfully
+01-01-2016 23:06:14 Bind(): Success
+01-01-2016 23:06:14 Init(): Completed
+01-01-2016 23:06:14 main(): System initialized
+01-01-2016 23:06:14 Listen(): Listening for data on socket
+01-01-2016 23:06:18 Listen(): Received packet from 127.0.0.1:53928
+01-01-2016 23:06:18 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+01-01-2016 23:06:18 parseMessage(): Parsing server message:'Cmd : Light = On'
+01-01-2016 23:06:18 parseMessage(): Extracted command:
+01-01-2016 23:06:18 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+01-01-2016 23:06:18 handleCommand(): Turning light on
+01-01-2016 23:06:18 ToggleSwitch(): SwitchId0=0 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:06:18 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:06:18 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:06:18 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:06:18 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:06:18 bcm2835_gpio_write(): Setting GPIO4=0 [0: low, 1:high]
+01-01-2016 23:06:18 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+01-01-2016 23:06:18 bcm2835_gpio_write(): Setting GPIO17=1 [0: low, 1:high]
+01-01-2016 23:06:18 bcm2835_delay(): Waiting 100 ms
+01-01-2016 23:06:18 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 23:06:18 bcm2835_gpio_write(): Setting GPIO17=0 [0: low, 1:high]
+01-01-2016 23:06:18 Listen(): Listening for data on socket
+01-01-2016 23:06:20 Listen(): Received packet from 127.0.0.1:53928
+01-01-2016 23:06:20 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+01-01-2016 23:06:20 parseMessage(): Parsing server message:'Cmd : Light = Off'
+01-01-2016 23:06:20 parseMessage(): Extracted command:
+01-01-2016 23:06:20 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+01-01-2016 23:06:20 handleCommand(): Turning light off
+01-01-2016 23:06:20 ToggleSwitch(): SwitchId0=1 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:06:20 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:06:20 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:06:20 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:06:20 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:06:20 bcm2835_gpio_write(): Setting GPIO4=0 [0: low, 1:high]
+01-01-2016 23:06:20 Listen(): Listening for data on socket
+01-01-2016 23:06:22 Listen(): Received packet from 127.0.0.1:53928
+01-01-2016 23:06:22 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+01-01-2016 23:06:22 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+01-01-2016 23:06:22 parseMessage(): Extracted command:
+01-01-2016 23:06:22 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+01-01-2016 23:06:22 handleCommand(): Light = Sensor is deprecated
+01-01-2016 23:06:22 Listen(): Listening for data on socket
+01-01-2016 23:06:24 Listen(): Received packet from 127.0.0.1:53928
+01-01-2016 23:06:24 Listen(): Packet lenght = 16, data contents: Cmd : Light = SHUTDOWN
+01-01-2016 23:06:24 parseMessage(): Parsing server message:'Cmd : Light = SHUTDOWN'
+01-01-2016 23:06:24 parseMessage(): Extracted command:
+01-01-2016 23:06:24 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = SHUTDOWN
+Printing following text to LCD:
+Cmd Received:   Light = SHUTDOWN
+01-01-2016 23:06:24 handleCommand(): Light controlled by sensor and program shutdown
+01-01-2016 23:06:24 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 23:06:24 bcm2835_gpio_write(): Setting GPIO17=0 [0: low, 1:high]
+01-01-2016 23:06:24 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:06:24 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:06:24 Exit(): Closing all handles
+01-01-2016 23:06:24 bcmCloseModule(): BCM2835 closed
+01-01-2016 23:06:24 ~SocketServer(): Deleting server instance
+01-01-2016 23:06:24 loggerExit(): Closing debug log file
+01-01-2016 23:07:10 loggerInit(): 
+
+#### New program session ####
+
+01-01-2016 23:07:10 loggerInit(): Initialized PrgDbgLog.txt for write
+01-01-2016 23:07:10 bcmInitModule(): BCM2835 initialized
+01-01-2016 23:07:10 bcmInitPin(): Initializing GPIO: GPIO17=1 [0: input, 1:output]
+01-01-2016 23:07:10 bcm2835_gpio_fsel(): Setting GPIO17 to type 1 [0: input, 1:output]
+01-01-2016 23:07:10 bcmInitPin(): Initializing GPIO: GPIO4=1 [0: input, 1:output]
+01-01-2016 23:07:10 bcm2835_gpio_fsel(): Setting GPIO4 to type 1 [0: input, 1:output]
+01-01-2016 23:07:10 SocketServer(): Creating server instance
+01-01-2016 23:07:10 CreateSocket(): Socket created successfully
+01-01-2016 23:07:10 Bind(): Success
+01-01-2016 23:07:10 Init(): Completed
+01-01-2016 23:07:10 main(): System initialized
+01-01-2016 23:07:10 Listen(): Listening for data on socket
+01-01-2016 23:07:14 Listen(): Received packet from 127.0.0.1:59393
+01-01-2016 23:07:14 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+01-01-2016 23:07:14 parseMessage(): Parsing server message:'Cmd : Light = On'
+01-01-2016 23:07:14 parseMessage(): Extracted command:
+01-01-2016 23:07:14 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+01-01-2016 23:07:14 handleCommand(): Turning light on
+01-01-2016 23:07:14 ToggleSwitch(): SwitchId0=0 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:07:14 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:07:14 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:07:14 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:07:14 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:07:14 bcm2835_gpio_write(): Setting GPIO4=0 [0: low, 1:high]
+01-01-2016 23:07:14 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+01-01-2016 23:07:14 bcm2835_gpio_write(): Setting GPIO17=1 [0: low, 1:high]
+01-01-2016 23:07:14 bcm2835_delay(): Waiting 100 ms
+01-01-2016 23:07:14 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 23:07:14 bcm2835_gpio_write(): Setting GPIO17=0 [0: low, 1:high]
+01-01-2016 23:07:14 Listen(): Listening for data on socket
+01-01-2016 23:07:16 Listen(): Received packet from 127.0.0.1:59393
+01-01-2016 23:07:16 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+01-01-2016 23:07:16 parseMessage(): Parsing server message:'Cmd : Light = Off'
+01-01-2016 23:07:16 parseMessage(): Extracted command:
+01-01-2016 23:07:16 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+01-01-2016 23:07:16 handleCommand(): Turning light off
+01-01-2016 23:07:16 ToggleSwitch(): SwitchId0=1 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:07:16 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:07:16 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:07:16 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:07:16 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:07:16 bcm2835_gpio_write(): Setting GPIO4=0 [0: low, 1:high]
+01-01-2016 23:07:16 Listen(): Listening for data on socket
+01-01-2016 23:07:18 Listen(): Received packet from 127.0.0.1:59393
+01-01-2016 23:07:18 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+01-01-2016 23:07:18 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+01-01-2016 23:07:18 parseMessage(): Extracted command:
+01-01-2016 23:07:18 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+01-01-2016 23:07:18 handleCommand(): Light = Sensor is deprecated
+01-01-2016 23:07:18 Listen(): Listening for data on socket
+01-01-2016 23:07:20 Listen(): Received packet from 127.0.0.1:59393
+01-01-2016 23:07:20 Listen(): Packet lenght = 16, data contents: Cmd : Light = SHUTDOWN
+01-01-2016 23:07:20 parseMessage(): Parsing server message:'Cmd : Light = SHUTDOWN'
+01-01-2016 23:07:20 parseMessage(): Extracted command:
+01-01-2016 23:07:20 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = SHUTDOWN
+Printing following text to LCD:
+Cmd Received:   Light = SHUTDOWN
+01-01-2016 23:07:20 handleCommand(): Program shutdown, turning light off...
+01-01-2016 23:07:20 ToggleSwitch(): SwitchId0=1 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:07:20 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:07:20 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:07:20 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:07:20 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:07:20 bcm2835_gpio_write(): Setting GPIO4=0 [0: low, 1:high]
+01-01-2016 23:07:20 Exit(): Closing all handles
+01-01-2016 23:07:20 bcmCloseModule(): BCM2835 closed
+01-01-2016 23:07:20 ~SocketServer(): Deleting server instance
+01-01-2016 23:07:20 loggerExit(): Closing debug log file
+01-01-2016 23:09:14 loggerInit(): 
+
+#### New program session ####
+
+01-01-2016 23:09:14 loggerInit(): Initialized PrgDbgLog.txt for write
+01-01-2016 23:09:14 bcmInitModule(): BCM2835 initialized
+01-01-2016 23:09:14 bcmInitPin(): Initializing GPIO: GPIO17=1 [0: input, 1:output]
+01-01-2016 23:09:14 bcm2835_gpio_fsel(): Setting GPIO17 to type 1 [0: input, 1:output]
+01-01-2016 23:09:14 bcmInitPin(): Initializing GPIO: GPIO4=1 [0: input, 1:output]
+01-01-2016 23:09:14 bcm2835_gpio_fsel(): Setting GPIO4 to type 1 [0: input, 1:output]
+01-01-2016 23:09:14 SocketServer(): Creating server instance
+01-01-2016 23:09:14 CreateSocket(): Socket created successfully
+01-01-2016 23:09:14 Bind(): Success
+01-01-2016 23:09:14 Init(): Completed
+01-01-2016 23:09:14 main(): System initialized
+01-01-2016 23:09:14 Listen(): Listening for data on socket
+01-01-2016 23:09:17 Listen(): Received packet from 127.0.0.1:63644
+01-01-2016 23:09:17 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+01-01-2016 23:09:17 parseMessage(): Parsing server message:'Cmd : Light = On'
+01-01-2016 23:09:17 parseMessage(): Extracted command:
+01-01-2016 23:09:17 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+01-01-2016 23:09:17 handleCommand(): Turning light on
+01-01-2016 23:09:17 ToggleSwitch(): SwitchId0=1 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:09:17 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:09:17 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:09:17 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:09:17 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:09:17 bcm2835_gpio_write(): Setting GPIO4=0 [0: low, 1:high]
+01-01-2016 23:09:17 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+01-01-2016 23:09:17 bcm2835_gpio_write(): Setting GPIO17=1 [0: low, 1:high]
+01-01-2016 23:09:17 bcm2835_delay(): Waiting 100 ms
+01-01-2016 23:09:17 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 23:09:17 bcm2835_gpio_write(): Setting GPIO17=0 [0: low, 1:high]
+01-01-2016 23:09:17 Listen(): Listening for data on socket
+01-01-2016 23:09:19 Listen(): Received packet from 127.0.0.1:63644
+01-01-2016 23:09:19 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+01-01-2016 23:09:19 parseMessage(): Parsing server message:'Cmd : Light = Off'
+01-01-2016 23:09:19 parseMessage(): Extracted command:
+01-01-2016 23:09:19 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+01-01-2016 23:09:19 handleCommand(): Turning light off
+01-01-2016 23:09:19 ToggleSwitch(): SwitchId0=0 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:09:19 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:09:19 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:09:19 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:09:19 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:09:19 bcm2835_gpio_write(): Setting GPIO4=0 [0: low, 1:high]
+01-01-2016 23:09:19 Listen(): Listening for data on socket
+01-01-2016 23:09:21 Listen(): Received packet from 127.0.0.1:63644
+01-01-2016 23:09:21 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+01-01-2016 23:09:21 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+01-01-2016 23:09:21 parseMessage(): Extracted command:
+01-01-2016 23:09:21 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+01-01-2016 23:09:21 handleCommand(): Light = Sensor is deprecated
+01-01-2016 23:09:21 Listen(): Listening for data on socket
+01-01-2016 23:09:23 Listen(): Received packet from 127.0.0.1:63644
+01-01-2016 23:09:23 Listen(): Packet lenght = 16, data contents: Cmd : Light = SHUTDOWN
+01-01-2016 23:09:23 parseMessage(): Parsing server message:'Cmd : Light = SHUTDOWN'
+01-01-2016 23:09:23 parseMessage(): Extracted command:
+01-01-2016 23:09:23 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = SHUTDOWN
+Printing following text to LCD:
+Cmd Received:   Light = SHUTDOWN
+01-01-2016 23:09:23 handleCommand(): Program shutdown, turning light off...
+01-01-2016 23:09:23 ToggleSwitch(): SwitchId0=0 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:09:23 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:09:23 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:09:23 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:09:23 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:09:23 bcm2835_gpio_write(): Setting GPIO4=0 [0: low, 1:high]
+01-01-2016 23:09:23 Exit(): Closing all handles
+01-01-2016 23:09:23 bcmCloseModule(): BCM2835 closed
+01-01-2016 23:09:23 ~SocketServer(): Deleting server instance
+01-01-2016 23:09:23 loggerExit(): Closing debug log file
+01-01-2016 23:12:03 loggerInit(): 
+
+#### New program session ####
+
+01-01-2016 23:12:03 loggerInit(): Initialized PrgDbgLog.txt for write
+01-01-2016 23:12:03 bcmInitModule(): BCM2835 initialized
+01-01-2016 23:12:03 bcmInitPin(): Initializing GPIO: GPIO17=1 [0: input, 1:output]
+01-01-2016 23:12:03 bcm2835_gpio_fsel(): Setting GPIO17 to type 1 [0: input, 1:output]
+01-01-2016 23:12:03 bcmInitPin(): Initializing GPIO: GPIO4=1 [0: input, 1:output]
+01-01-2016 23:12:03 bcm2835_gpio_fsel(): Setting GPIO4 to type 1 [0: input, 1:output]
+01-01-2016 23:12:03 SocketServer(): Creating server instance
+01-01-2016 23:12:03 CreateSocket(): Socket created successfully
+01-01-2016 23:12:03 Bind(): Success
+01-01-2016 23:12:03 Init(): Completed
+01-01-2016 23:12:03 main(): System initialized
+01-01-2016 23:12:03 Listen(): Listening for data on socket
+01-01-2016 23:12:06 Listen(): Received packet from 127.0.0.1:57419
+01-01-2016 23:12:06 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+01-01-2016 23:12:06 parseMessage(): Parsing server message:'Cmd : Light = On'
+01-01-2016 23:12:06 parseMessage(): Extracted command:
+01-01-2016 23:12:06 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+01-01-2016 23:12:06 handleCommand(): Turning light on
+01-01-2016 23:12:06 ToggleSwitch(): SwitchId0=1 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:12:06 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:12:06 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:12:06 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:12:06 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:12:06 bcm2835_gpio_write(): Setting GPIO4=0 [0: low, 1:high]
+01-01-2016 23:12:06 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+01-01-2016 23:12:06 bcm2835_gpio_write(): Setting GPIO17=1 [0: low, 1:high]
+01-01-2016 23:12:06 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:12:06 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 23:12:06 bcm2835_gpio_write(): Setting GPIO17=0 [0: low, 1:high]
+01-01-2016 23:12:06 Listen(): Listening for data on socket
+01-01-2016 23:12:08 Listen(): Received packet from 127.0.0.1:57419
+01-01-2016 23:12:08 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+01-01-2016 23:12:08 parseMessage(): Parsing server message:'Cmd : Light = Off'
+01-01-2016 23:12:08 parseMessage(): Extracted command:
+01-01-2016 23:12:08 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+01-01-2016 23:12:08 handleCommand(): Turning light off
+01-01-2016 23:12:08 ToggleSwitch(): SwitchId0=0 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:12:08 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:12:08 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:12:08 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:12:08 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:12:08 bcm2835_gpio_write(): Setting GPIO4=0 [0: low, 1:high]
+01-01-2016 23:12:08 Listen(): Listening for data on socket
+01-01-2016 23:12:10 Listen(): Received packet from 127.0.0.1:57419
+01-01-2016 23:12:10 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+01-01-2016 23:12:10 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+01-01-2016 23:12:10 parseMessage(): Extracted command:
+01-01-2016 23:12:10 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+01-01-2016 23:12:10 handleCommand(): Light = Sensor is deprecated
+01-01-2016 23:12:10 Listen(): Listening for data on socket
+01-01-2016 23:12:12 Listen(): Received packet from 127.0.0.1:57419
+01-01-2016 23:12:12 Listen(): Packet lenght = 16, data contents: Cmd : Light = SHUTDOWN
+01-01-2016 23:12:12 parseMessage(): Parsing server message:'Cmd : Light = SHUTDOWN'
+01-01-2016 23:12:12 parseMessage(): Extracted command:
+01-01-2016 23:12:12 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = SHUTDOWN
+Printing following text to LCD:
+Cmd Received:   Light = SHUTDOWN
+01-01-2016 23:12:12 handleCommand(): Program shutdown, turning light off...
+01-01-2016 23:12:12 ToggleSwitch(): SwitchId0=0 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:12:12 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:12:12 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:12:12 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:12:12 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:12:12 bcm2835_gpio_write(): Setting GPIO4=0 [0: low, 1:high]
+01-01-2016 23:12:12 Exit(): Closing all handles
+01-01-2016 23:12:12 bcmCloseModule(): BCM2835 closed
+01-01-2016 23:12:12 ~SocketServer(): Deleting server instance
+01-01-2016 23:12:12 loggerExit(): Closing debug log file
+01-01-2016 23:16:07 loggerInit(): 
+
+#### New program session ####
+
+01-01-2016 23:16:07 loggerInit(): Initialized PrgDbgLog.txt for write
+01-01-2016 23:16:07 bcmInitModule(): BCM2835 initialized
+01-01-2016 23:16:07 bcmInitPin(): Initializing GPIO: GPIO4=1 [0: input, 1:output]
+01-01-2016 23:16:07 bcm2835_gpio_fsel(): Setting GPIO4 to type 1 [0: input, 1:output]
+01-01-2016 23:16:07 bcmInitPin(): Initializing GPIO: GPIO17=1 [0: input, 1:output]
+01-01-2016 23:16:07 bcm2835_gpio_fsel(): Setting GPIO17 to type 1 [0: input, 1:output]
+01-01-2016 23:16:07 bcmInitPin(): Initializing GPIO: GPIO18=1 [0: input, 1:output]
+01-01-2016 23:16:07 bcm2835_gpio_fsel(): Setting GPIO18 to type 1 [0: input, 1:output]
+01-01-2016 23:16:07 bcmInitPin(): Initializing GPIO: GPIO22=1 [0: input, 1:output]
+01-01-2016 23:16:07 bcm2835_gpio_fsel(): Setting GPIO22 to type 1 [0: input, 1:output]
+01-01-2016 23:16:07 bcmInitPin(): Initializing GPIO: GPIO23=1 [0: input, 1:output]
+01-01-2016 23:16:07 bcm2835_gpio_fsel(): Setting GPIO23 to type 1 [0: input, 1:output]
+01-01-2016 23:16:07 bcmInitPin(): Initializing GPIO: GPIO24=1 [0: input, 1:output]
+01-01-2016 23:16:07 bcm2835_gpio_fsel(): Setting GPIO24 to type 1 [0: input, 1:output]
+01-01-2016 23:16:07 bcmInitPin(): Initializing GPIO: GPIO25=1 [0: input, 1:output]
+01-01-2016 23:16:07 bcm2835_gpio_fsel(): Setting GPIO25 to type 1 [0: input, 1:output]
+01-01-2016 23:16:07 bcmInitPin(): Initializing GPIO: GPIO21=1 [0: input, 1:output]
+01-01-2016 23:16:07 bcm2835_gpio_fsel(): Setting GPIO21 to type 1 [0: input, 1:output]
+01-01-2016 23:16:07 SocketServer(): Creating server instance
+01-01-2016 23:16:07 CreateSocket(): Socket created successfully
+01-01-2016 23:16:07 Bind(): Success
+01-01-2016 23:16:07 Init(): Completed
+01-01-2016 23:16:07 main(): System initialized
+01-01-2016 23:16:07 Listen(): Listening for data on socket
+01-01-2016 23:16:27 Listen(): Received packet from 127.0.0.1:52929
+01-01-2016 23:16:27 Listen(): Packet lenght = 16, data contents: Cmd : Light = On
+01-01-2016 23:16:27 parseMessage(): Parsing server message:'Cmd : Light = On'
+01-01-2016 23:16:27 parseMessage(): Extracted command:
+01-01-2016 23:16:27 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = On
+Printing following text to LCD:
+Cmd Received:   Light = On
+01-01-2016 23:16:27 handleCommand(): Turning light on
+01-01-2016 23:16:27 ToggleSwitch(): SwitchId0=1 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:16:27 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:16:27 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:16:27 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:16:27 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:16:27 bcm2835_gpio_write(): Setting GPIO4=0 [0: low, 1:high]
+01-01-2016 23:16:27 bcmControlPin(): Setting GPIO state: GPIO17=1 [0: low, 1:high]
+01-01-2016 23:16:27 bcm2835_gpio_write(): Setting GPIO17=1 [0: low, 1:high]
+01-01-2016 23:16:27 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:16:27 bcmControlPin(): Setting GPIO state: GPIO17=0 [0: low, 1:high]
+01-01-2016 23:16:27 bcm2835_gpio_write(): Setting GPIO17=0 [0: low, 1:high]
+01-01-2016 23:16:27 Listen(): Listening for data on socket
+01-01-2016 23:16:29 Listen(): Received packet from 127.0.0.1:52929
+01-01-2016 23:16:29 Listen(): Packet lenght = 16, data contents: Cmd : Light = Off
+01-01-2016 23:16:29 parseMessage(): Parsing server message:'Cmd : Light = Off'
+01-01-2016 23:16:29 parseMessage(): Extracted command:
+01-01-2016 23:16:29 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Off
+Printing following text to LCD:
+Cmd Received:   Light = Off
+01-01-2016 23:16:29 handleCommand(): Turning light off
+01-01-2016 23:16:29 ToggleSwitch(): SwitchId0=0 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:16:29 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:16:29 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:16:29 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:16:29 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:16:29 bcm2835_gpio_write(): Setting GPIO4=0 [0: low, 1:high]
+01-01-2016 23:16:29 Listen(): Listening for data on socket
+01-01-2016 23:16:31 Listen(): Received packet from 127.0.0.1:52929
+01-01-2016 23:16:31 Listen(): Packet lenght = 16, data contents: Cmd : Light = Sensor
+01-01-2016 23:16:31 parseMessage(): Parsing server message:'Cmd : Light = Sensor'
+01-01-2016 23:16:31 parseMessage(): Extracted command:
+01-01-2016 23:16:31 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = Sensor
+Printing following text to LCD:
+Cmd Received:   Light = Sensor
+01-01-2016 23:16:31 handleCommand(): Light = Sensor is deprecated
+01-01-2016 23:16:31 Listen(): Listening for data on socket
+01-01-2016 23:16:33 Listen(): Received packet from 127.0.0.1:52929
+01-01-2016 23:16:33 Listen(): Packet lenght = 16, data contents: Cmd : Light = SHUTDOWN
+01-01-2016 23:16:33 parseMessage(): Parsing server message:'Cmd : Light = SHUTDOWN'
+01-01-2016 23:16:33 parseMessage(): Extracted command:
+01-01-2016 23:16:33 parseMessage():   ->msgType = Cmd, cmdType = Light, cmdPar = SHUTDOWN
+Printing following text to LCD:
+Cmd Received:   Light = SHUTDOWN
+01-01-2016 23:16:33 handleCommand(): Program shutdown, turning light off...
+01-01-2016 23:16:33 ToggleSwitch(): SwitchId0=0 [0: SwitchStateOff, 1:SwitchStateOn]
+01-01-2016 23:16:33 bcmControlPin(): Setting GPIO state: GPIO4=1 [0: low, 1:high]
+01-01-2016 23:16:33 bcm2835_gpio_write(): Setting GPIO4=1 [0: low, 1:high]
+01-01-2016 23:16:33 bcm2835_delay(): Waiting 10 ms
+01-01-2016 23:16:33 bcmControlPin(): Setting GPIO state: GPIO4=0 [0: low, 1:high]
+01-01-2016 23:16:33 bcm2835_gpio_write(): Setting GPIO4=0 [0: low, 1:high]
+01-01-2016 23:16:33 Exit(): Closing all handles
+01-01-2016 23:16:33 bcmCloseModule(): BCM2835 closed
+01-01-2016 23:16:33 ~SocketServer(): Deleting server instance
+01-01-2016 23:16:33 loggerExit(): Closing debug log file

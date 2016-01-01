@@ -8,8 +8,6 @@
 #include "stubs.h"
 #endif
 
-#include <pthread.h>
-
 #include "logger.h"
 #include "dht11.h"
 #include "bcm.h"
@@ -20,8 +18,25 @@
 static FILE *LogFileHandle;
 static SocketServer* socketServer;
 
-#define LIGHT_POWER pinGPIO17
-#define SENSOR_POWER pinGPIO4
+void ToggleSwitch(SwitchId_t SwitchNum, SwitchState_t state)
+{
+    char printBuf[100];
+    sprintf(printBuf, "SwitchId%d=%d [0: SwitchStateOff, 1:SwitchStateOn]\n", (int)SwitchNum, (int)state);
+    RL_PRINT(printBuf);
+
+    /* Toggle off switch */
+    bcmControlPin(SwithIdPinMapping[(int)SwitchNum], gpioPinStateHigh);
+    bcm2835_delay(10); /* Keep high for 10 ms */
+    bcmControlPin(SwithIdPinMapping[(int)SwitchNum], gpioPinStateLow);
+
+    /* Toggle on switch if set */
+    if(state == SwitchStateOn)
+    {
+        bcmControlPin(SwithIdPinMapping[(int)(SwitchNum+1)], gpioPinStateHigh);
+        bcm2835_delay(10); /* Keep high for 10 ms */
+        bcmControlPin(SwithIdPinMapping[(int)(SwitchNum+1)], gpioPinStateLow);        
+    }
+}
 
 void Init(void)
 {
@@ -38,13 +53,10 @@ void Init(void)
     //DhtInit();
 
     /* Initialize relay outputs */
-    bcmInitPin(LIGHT_POWER,  GPIO_OUTPUT); // Relay 0
-    bcmInitPin(SENSOR_POWER, GPIO_OUTPUT); // Relay 1
-    
-    //bcm2835_gpio_fsel(RPI_GPIO_P1_11, BCM2835_GPIO_FSEL_OUTP);
-    //bcm2835_gpio_write(RPI_GPIO_P1_11, HIGH);
-    //delay(1000);
-    //bcm2835_gpio_write(RPI_GPIO_P1_11, LOW);
+    for(int i = 0; i < 8; i++)
+    {
+        bcmInitPin(SwithIdPinMapping[i], GPIO_OUTPUT);
+    }
 
     /* Initialize socket server */
     socketServer = new SocketServer();
@@ -114,35 +126,22 @@ bool handleCommand(serverCommand_t *serverCmd)
         if(strcmp(serverCmd->par, "On") == 0)
         {
             RL_PRINT("Turning light on\n");
-
-            /* Enable override power and disable sensor */
-            bcmControlPin(LIGHT_POWER, gpioPinStateHigh);
-            bcmControlPin(SENSOR_POWER, gpioPinStateLow);
+            ToggleSwitch(SwitchId1, SwitchStateOn);
         }
         else if(strcmp(serverCmd->par, "Off") == 0)
         {
             RL_PRINT("Turning light off\n");
-
-            /* Turn off power to both sensor and override relay */
-            bcmControlPin(LIGHT_POWER, gpioPinStateLow);
-            bcmControlPin(SENSOR_POWER, gpioPinStateLow);
+            ToggleSwitch(SwitchId1, SwitchStateOff);
         }
         else if(strcmp(serverCmd->par, "Sensor") == 0)
         {
-            RL_PRINT("Light controlled by sensor\n");
-
-            /* Disable override power and enable sensor */
-            bcmControlPin(LIGHT_POWER, gpioPinStateLow);
-            bcmControlPin(SENSOR_POWER, gpioPinStateHigh);
+            RL_PRINT("Light = Sensor is deprecated\n");
         }
         else if(strcmp(serverCmd->par, "SHUTDOWN") == 0)
         {
-            RL_PRINT("Light controlled by sensor and program shutdown\n");
+            RL_PRINT("Program shutdown, turning light off...\n");
+            ToggleSwitch(SwitchId1, SwitchStateOff);
 
-            /* Leave only sensor enabled when shutting down server */
-            bcmControlPin(LIGHT_POWER, gpioPinStateLow);
-            bcmControlPin(SENSOR_POWER, gpioPinStateHigh);
-            
             /* Set return code to indicate program shutdown */
             res = true;
         }

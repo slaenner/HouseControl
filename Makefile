@@ -4,21 +4,20 @@ DEPS =
 OBJ = logger/src/logger.o dht11/src/dht11.o bcm/src/bcm.o lcd/src/lcd.o socketserver/src/socketserver.o housecontrol.o
 
 OBJSIM = sim_stubs/src/stubs.o
-CFLAGSSIM = -Isim_stubs/h -DSIMULATION
-
-CFLAGSTGT = -lbcm2835 -lm
+CFLAGS = -Isim_stubs/h -DSIMULATION
+#CFLAGS = -lbcm2835 -lm
 
 %.o: %.c
-	$(CC) -c -o $@ $< $(CFLAGSCOM) $(CFLAGSTGT)
+	$(CC) -c -o $@ $< $(CFLAGSCOM) $(CFLAGS)
 
 %.o: %.cpp
-	$(CC) -c -o $@ $< $(CFLAGSCOM) $(CFLAGSTGT)
+	$(CC) -c -o $@ $< $(CFLAGSCOM) $(CFLAGS)
 
 raspberry: $(OBJ)
-	$(CC) -o $@ $^ $(CFLAGSCOM) $(CFLAGSTGT)
+	$(CC) -o $@ $^ $(CFLAGSCOM) $(CFLAGS)
 
 host: $(OBJ) $(OBJSIM)
-	$(CC) -o $@ $^ $(CFLAGSCOM) $(CFLAGSSIM)
+	$(CC) -o $@ $^ $(CFLAGSCOM) $(CFLAGS)
 
 clean:
 	rm $(OBJ)

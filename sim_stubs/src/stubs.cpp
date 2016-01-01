@@ -3,10 +3,20 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
 
 #include "dht11.h"
 #include "logger.h"
 
+void bcm2835_delay(int ms)
+{
+    char printBuf[100];
+    sprintf(printBuf, "Waiting %d ms\n", ms);
+    RL_PRINT(printBuf);
+
+    usleep(ms * 1000);
+}
 
 int bcm2835_init(void)
 {  
@@ -45,12 +55,21 @@ SensorData_t* GetData(int pin)
 
 void bcm2835_gpio_fsel(int pin, int fsel)
 {
-    RL_PRINT("Setting pin type\n");
+    char printBuf[100];
+    sprintf(printBuf, "Setting GPIO%d to type %d [0: input, 1:output]\n", pin, fsel);
+    RL_PRINT(printBuf);
 }
 
 void bcm2835_gpio_write(int pin, int fsel)
 {
-    RL_PRINT("Setting pin state\n");
+    char printBuf[100];
+    sprintf(printBuf, "Setting GPIO%d=%d [0: low, 1:high]\n", pin, fsel);
+    RL_PRINT(printBuf);
+}
+
+void bcm2835_close(void)
+{
+  return;
 }
 
 #endif

@@ -26,7 +26,7 @@
 void bcmCloseModule(void)
 {
 	bcm2835_close();
-  	RL_PRINT("BCM2835 closed\n");
+  RL_PRINT("BCM2835 closed\n");
 }
 
 void bcmInitModule(void)
